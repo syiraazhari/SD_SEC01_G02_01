@@ -11,6 +11,8 @@ Public Class LoginForm
         If loginStatus = True Then
             MessageBox.Show("User valid")
             MDIParent1.PaymentToolStripButton.Visible = True
+            MDIParent1.LoginStripButton.Visible = False
         End If
     End Sub
+
 End Class

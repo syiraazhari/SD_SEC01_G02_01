@@ -23,10 +23,6 @@ Public Class MDIParent1
         End If
     End Sub
 
-    Private Sub PaymentToolStripButton_Click(sender As Object, e As EventArgs) Handles PaymentToolStripButton.Click
-
-    End Sub
-
     Private Sub StaffToolStripButton_Click(sender As Object, e As EventArgs) Handles StaffToolStripButton.Click
         With StaffForm
             .MdiParent = Me

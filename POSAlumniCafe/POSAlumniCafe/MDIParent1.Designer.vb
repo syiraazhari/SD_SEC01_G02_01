@@ -138,6 +138,7 @@ Partial Class MDIParent1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.AutoSize = True
         Me.ClientSize = New System.Drawing.Size(1289, 682)
         Me.Controls.Add(Me.ToolStrip)
         Me.Controls.Add(Me.StatusStrip)
@@ -145,6 +146,7 @@ Partial Class MDIParent1
         Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "MDIParent1"
         Me.Text = "MDIParent1"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.ToolStrip.ResumeLayout(False)
         Me.ToolStrip.PerformLayout()
         Me.StatusStrip.ResumeLayout(False)

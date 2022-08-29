@@ -117,6 +117,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddNewEmpForm.Designer.vb">
+      <DependentUpon>AddNewEmpForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddNewEmpForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="database.vb" />
     <Compile Include="LoginForm.vb">
       <SubType>Form</SubType>
@@ -155,6 +161,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="AddNewEmpForm.resx">
+      <DependentUpon>AddNewEmpForm.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.vb</DependentUpon>
     </EmbeddedResource>

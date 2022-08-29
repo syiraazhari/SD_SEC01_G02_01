@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Aug 17, 2022 at 03:54 PM
+-- Generation Time: Aug 29, 2022 at 02:06 PM
 -- Server version: 5.7.36
 -- PHP Version: 7.4.26
 
@@ -29,6 +29,7 @@ SET time_zone = "+00:00";
 
 DROP TABLE IF EXISTS `user`;
 CREATE TABLE IF NOT EXISTS `user` (
+  `empID` varchar(30) NOT NULL,
   `name` char(100) NOT NULL,
   `username` varchar(100) NOT NULL,
   `password` varchar(100) NOT NULL,
@@ -39,11 +40,15 @@ CREATE TABLE IF NOT EXISTS `user` (
 -- Dumping data for table `user`
 --
 
-INSERT INTO `user` (`name`, `username`, `password`, `role`) VALUES
-('azaf', 'azaf', 'staff', 'staff'),
-('john', 'staff', 'staff', 'staff'),
-('tony', 'tony', 'staff', 'staff'),
-('hello', 'hello', 'admin', 'admin');
+INSERT INTO `user` (`empID`, `name`, `username`, `password`, `role`) VALUES
+('A01', 'azaf', 'azaf', 'staff', 'staff'),
+('R19', 'john', 'staff', 'staff', 'staff'),
+('A15', 'tony', 'tony', 'staff', 'staff'),
+('B21', 'hello', 'hello', 'admin', 'admin'),
+('b', 'g', 'o', 'g', 'staff'),
+('r', 'r', 'r', 'r', 'staff'),
+('houhou', 'popop', 'huohou', 'hiho', 'staff'),
+('21212', '1212121', '2121', '212121', 'staff');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

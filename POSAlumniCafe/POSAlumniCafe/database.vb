@@ -8,6 +8,7 @@ Module database
     Public sqlRd As MySqlDataReader
     Public sqlDt As New DataTable
     Public DtA As New MySqlDataAdapter
+    Dim sqlQuery As String
 
     Dim server As String = "localhost"
     Dim username As String = "root"
@@ -59,14 +60,28 @@ Module database
 
     End Function
 
-    Public Function addNewUser(newEmpId As String, newEmpName As String, newEmpUsername As String, newEmpPassword As String, newEmpRole As String) As MySqlDataReader
+    Public Function addNewEmployee(newEmpId As String, newEmpName As String, newEmpUsername As String, newEmpPassword As String, newEmpRole As String) As Boolean
         openConnection()
 
-        sqlCmd.Connection = sqlConn
-        sqlCmd.CommandText = "SELECT * FROM user"
+        With sqlCmd
+            .Connection = sqlConn
+            .CommandText = "INSERT INTO user(empID, name, username, password, role) VALUES (@newEmpId, @newEmpName, @newEmpUsername, @newEmpPassword, @newEmpRole)"
+            .Parameters.AddWithValue("@newEmpId", newEmpId)
+            .Parameters.AddWithValue("@newEmpName", newEmpName)
+            .Parameters.AddWithValue("@newEmpUsername", newEmpUsername)
+            .Parameters.AddWithValue("@newEmpPassword", newEmpPassword)
+            .Parameters.AddWithValue("@newEmpRole", newEmpRole)
+            '.CommandText = "INSERT INTO user (empID, name, username, password, role) VALUES ('" & newEmpId & "','" & newEmpName & "','" & newEmpUsername & "','" & newEmpPassword & "','" & newEmpRole & "')"
 
-        sqlRd = sqlCmd.ExecuteReader
-        Return sqlRd
+
+        End With
+
+        sqlCmd.ExecuteNonQuery()
+        sqlConn.Close()
+        updateTable()
+        Return True
+
+
 
     End Function
 
@@ -79,5 +94,15 @@ Module database
         sqlRd = sqlCmd.ExecuteReader
         Return sqlRd
 
+
     End Function
+
+    Public Sub updateTable()
+        sqlDt.Load(getUser())
+        StaffForm.EmployeeDataGridView.Refresh()
+        'StaffForm.EmployeeDataGridView.DataSource = sqlDt
+        sqlConn.Close()
+    End Sub
+
+
 End Module
