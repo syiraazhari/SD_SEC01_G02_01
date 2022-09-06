@@ -16,6 +16,14 @@
 
     End Sub
 
+    Public Sub updateProfileUserLogin(uName As String, uUsername As String, uEmail As String, uPassword As String)
+        name = uName
+        username = uUsername
+        email = uEmail
+        password = uPassword
+
+    End Sub
+
     Public Function getName() As String
         Return name
     End Function

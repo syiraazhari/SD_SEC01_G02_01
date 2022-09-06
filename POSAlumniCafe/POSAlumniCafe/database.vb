@@ -40,7 +40,7 @@ Module database
 
         If processUsersList.HasRows Then
             While (processUsersList.Read)
-                If processUsersList("name") = usernameLogin And processUsersList("password") = passwordLogin Then
+                If processUsersList.GetValue(2) = usernameLogin And processUsersList.GetValue(3) = passwordLogin Then
                     sqlRd.Close()
                     sqlConn.Close()
                     Return True
@@ -48,7 +48,7 @@ Module database
             End While
 
         Else
-            MessageBox.Show("User not found")
+            MessageBox.Show("Error in getting user data")
             sqlRd.Close()
             sqlConn.Close()
             Return False
@@ -159,6 +159,7 @@ Module database
         End With
 
         sqlRd = sqlCmd.ExecuteReader()
+        sqlCmd.Parameters.Clear()
         Return sqlRd
         'sqlConn.Close()
 
@@ -188,6 +189,7 @@ Module database
             MessageBox.Show(ex.ToString)
         End Try
 
+
         sqlConn.Close()
         Return False
 
@@ -215,9 +217,36 @@ Module database
         End With
 
         sqlCmd.ExecuteNonQuery()
+        sqlCmd.Parameters.Clear()
         sqlConn.Close()
         updateTable()
     End Sub
+
+
+    Public Sub updatePassword(uPassword As String, empID As String)
+
+        With sqlConn
+            .ConnectionString = "server = " + server + ";user id = " + username + ";password = " + password + ";database = " + database
+            .Open()
+        End With
+
+        sqlCmd.Connection = sqlConn
+
+        With sqlCmd
+            .CommandText = "UPDATE user SET password = @uPassword WHERE empID = @empID"
+
+            .CommandType = CommandType.Text
+            .Parameters.AddWithValue("@uPassword", uPassword)
+            .Parameters.AddWithValue("@empID", empID)
+
+        End With
+
+        sqlCmd.ExecuteNonQuery()
+        sqlCmd.Parameters.Clear()
+        sqlConn.Close()
+        updateTable()
+    End Sub
+
 
 
 

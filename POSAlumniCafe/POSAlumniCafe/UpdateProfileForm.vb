@@ -18,16 +18,17 @@
         Dim uPassword As String = UpdatePasswordTextBox.Text
         Dim empID As String = LoginForm.userLogIn.getEmployeeId()
 
-
         Try
             updateUserProfile(uName, uUsername, uEmail, uPassword, empID)
+            LoginForm.userLogIn.updateProfileUserLogin(uName, uUsername, uEmail, uPassword)
             MessageBox.Show("Success to update profile")
 
         Catch ex As Exception
             MessageBox.Show("Fail to update profile")
+            MessageBox.Show(ex.ToString)
         End Try
 
-
+        loadUserProfile()
 
         'If updateDatabase("user", "name = '" & UpdateNameTextBox.Text & "', username = '" & UpdateUsernameTextBox.Text & "', email = '" & UpdateEmailTextBox.Text & "'", " empID = '" & LoginForm.userLogIn.getEmployeeId & "'") Then
         '    MessageBox.Show("Your profile has been updated")

@@ -26,7 +26,7 @@ Public Class LoginForm
             MDIParent1.LoginStripButton.Visible = False
 
         Else
-            MessageBox.Show("user not found")
+            MessageBox.Show("User not found")
         End If
 
         sqlDt.Load(getUser())

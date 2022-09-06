@@ -4,11 +4,7 @@ Public Class ProfileForm
 
     Private Sub ProfileForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
-        NameLabel.Text = LoginForm.userLogIn.getName()
-        UsernameLabel.Text = LoginForm.userLogIn.getUsername()
-        RoleLabel.Text = LoginForm.userLogIn.getRole()
-        EmpIdLabel.Text = LoginForm.userLogIn.getEmployeeId()
-        EmailLabel.Text = LoginForm.userLogIn.getEmail()
+        loadUserProfile()
 
 
     End Sub

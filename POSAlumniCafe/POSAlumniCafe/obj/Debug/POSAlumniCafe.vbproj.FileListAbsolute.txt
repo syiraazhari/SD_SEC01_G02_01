@@ -114,3 +114,5 @@ C:\Users\USER\OneDrive\Desktop\Desktop File\UTM\SEM 5\SOFTWARE DEVELOPMENT\Proje
 C:\Users\USER\OneDrive\Desktop\Desktop File\UTM\SEM 5\SOFTWARE DEVELOPMENT\Project\BACKUP PROJECT\POSAlumniCafe\POSAlumniCafe\obj\Debug\POSAlumniCafe.AddNewEmpForm.resources
 C:\Users\USER\OneDrive\Desktop\Desktop File\UTM\SEM 5\SOFTWARE DEVELOPMENT\Project\BACKUP PROJECT\POSAlumniCafe\POSAlumniCafe\obj\Debug\POSAlumniCafe.ProfileForm.resources
 C:\Users\USER\OneDrive\Desktop\Desktop File\UTM\SEM 5\SOFTWARE DEVELOPMENT\Project\BACKUP PROJECT\POSAlumniCafe\POSAlumniCafe\obj\Debug\POSAlumniCafe.UpdateProfileForm.resources
+C:\Users\USER\OneDrive\Desktop\Desktop File\UTM\SEM 5\SOFTWARE DEVELOPMENT\Project\BACKUP PROJECT\POSAlumniCafe\POSAlumniCafe\obj\Debug\POSAlumniCafe.SettingForm.resources
+C:\Users\USER\OneDrive\Desktop\Desktop File\UTM\SEM 5\SOFTWARE DEVELOPMENT\Project\BACKUP PROJECT\POSAlumniCafe\POSAlumniCafe\obj\Debug\POSAlumniCafe.SettingPasswordForm.resources
