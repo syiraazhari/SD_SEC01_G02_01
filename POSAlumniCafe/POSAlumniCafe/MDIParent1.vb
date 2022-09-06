@@ -31,4 +31,14 @@ Public Class MDIParent1
         End With
 
     End Sub
+
+    Private Sub ProfileToolStripButton_Click(sender As Object, e As EventArgs) Handles ProfileToolStripButton.Click
+        With ProfileForm
+            .MdiParent = Me
+            .WindowState = FormWindowState.Maximized
+            .Show()
+        End With
+    End Sub
+
+
 End Class

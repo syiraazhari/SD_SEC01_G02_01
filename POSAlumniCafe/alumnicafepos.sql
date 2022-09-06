@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Aug 29, 2022 at 02:06 PM
+-- Generation Time: Sep 06, 2022 at 02:43 AM
 -- Server version: 5.7.36
 -- PHP Version: 7.4.26
 
@@ -33,6 +33,7 @@ CREATE TABLE IF NOT EXISTS `user` (
   `name` char(100) NOT NULL,
   `username` varchar(100) NOT NULL,
   `password` varchar(100) NOT NULL,
+  `email` varchar(100) NOT NULL,
   `role` char(100) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
@@ -40,15 +41,11 @@ CREATE TABLE IF NOT EXISTS `user` (
 -- Dumping data for table `user`
 --
 
-INSERT INTO `user` (`empID`, `name`, `username`, `password`, `role`) VALUES
-('A01', 'azaf', 'azaf', 'staff', 'staff'),
-('R19', 'john', 'staff', 'staff', 'staff'),
-('A15', 'tony', 'tony', 'staff', 'staff'),
-('B21', 'hello', 'hello', 'admin', 'admin'),
-('b', 'g', 'o', 'g', 'staff'),
-('r', 'r', 'r', 'r', 'staff'),
-('houhou', 'popop', 'huohou', 'hiho', 'staff'),
-('21212', '1212121', '2121', '212121', 'staff');
+INSERT INTO `user` (`empID`, `name`, `username`, `password`, `email`, `role`) VALUES
+('B21', 'hola', 'hello', 'admin', '', 'admin'),
+('I921', 'terry', 'terryhere', 'staff', 'terry@gmail.com', 'staff'),
+('J454', 'kyrie', 'kyriehere', 'staff', 'kyrie@gmail.com', 'admin'),
+('K901', 'john', 'john', 'sta', 'john@gmail.com', 'staff');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

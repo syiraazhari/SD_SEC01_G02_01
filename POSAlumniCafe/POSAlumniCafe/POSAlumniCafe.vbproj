@@ -124,6 +124,13 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="database.vb" />
+    <Compile Include="LogInUserClass.vb" />
+    <Compile Include="ProfileForm.Designer.vb">
+      <DependentUpon>ProfileForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ProfileForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="LoginForm.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -159,10 +166,19 @@
     <Compile Include="StaffForm.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="UpdateProfileForm.Designer.vb">
+      <DependentUpon>UpdateProfileForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateProfileForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="AddNewEmpForm.resx">
       <DependentUpon>AddNewEmpForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProfileForm.resx">
+      <DependentUpon>ProfileForm.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.vb</DependentUpon>
@@ -178,6 +194,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="StaffForm.resx">
       <DependentUpon>StaffForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateProfileForm.resx">
+      <DependentUpon>UpdateProfileForm.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

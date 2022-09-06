@@ -60,7 +60,6 @@ Partial Class LoginForm
         Me.DataGridView1.RowTemplate.Height = 24
         Me.DataGridView1.Size = New System.Drawing.Size(602, 245)
         Me.DataGridView1.TabIndex = 7
-        Me.DataGridView1.Visible = False
         '
         'ListBox1
         '
