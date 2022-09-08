@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Sep 08, 2022 at 06:14 AM
+-- Generation Time: Sep 08, 2022 at 06:18 AM
 -- Server version: 5.7.36
 -- PHP Version: 7.4.26
 
@@ -42,7 +42,7 @@ CREATE TABLE IF NOT EXISTS `user` (
 --
 
 INSERT INTO `user` (`empID`, `name`, `username`, `password`, `email`, `role`) VALUES
-('C1', 'azafri', 'reywi', 'staff', 'afiqah@gmail.com', 'admin'),
+('C1', 'azafri', 'reywi', 'staff', 'reywi@gmail.com', 'admin'),
 ('B21', 'hola', 'hello', 'admin', '', 'admin'),
 ('I921', 'azaftries', 'terryhere', 'staff', 'terryjohnnyyy@gmail.com', 'staff'),
 ('J454', 'kyrie', 'kyriehere', 'staff', 'kyrie@gmail.com', 'admin'),
