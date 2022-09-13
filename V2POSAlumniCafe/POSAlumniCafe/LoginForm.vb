@@ -16,14 +16,36 @@ Public Class LoginForm
             If (database.Read) Then
                 'COULD IMPROVE: PASS OBJECT ONLY INTO THE LogInUserClass
                 userLogIn.setNewUserLogIn(database.GetString("name"), database.GetString("username"), database.GetString("empID"), database.GetString("email"), database.GetString("password"), database.GetString("role"))
+
+                MessageBox.Show("User valid")
+                If database.GetString("role") = "admin" Then
+                    MDIParent1.PaymentToolStripButton.Visible = True
+                    MDIParent1.ReportToolStripButton.Visible = True
+                    MDIParent1.StaffToolStripButton.Visible = True
+                    MDIParent1.InventoryToolStripButton.Visible = True
+                    MDIParent1.ProfileToolStripButton.Visible = True
+                    MDIParent1.SettingToolStripButton.Visible = True
+
+                    MDIParent1.LoginStripButton.Visible = False
+                ElseIf database.GetString("role") = "staff" Then
+                    MDIParent1.PaymentToolStripButton.Visible = True
+                    MDIParent1.InventoryToolStripButton.Visible = True
+                    MDIParent1.ProfileToolStripButton.Visible = True
+                    MDIParent1.SettingToolStripButton.Visible = True
+
+                    MDIParent1.LoginStripButton.Visible = False
+                End If
+                Hide()
+                sqlRd.Close()
+                sqlConn.Close()
             End If
 
 
-            sqlRd.Close()
-            sqlConn.Close()
-            MessageBox.Show("User valid")
-            MDIParent1.PaymentToolStripButton.Visible = True
-            MDIParent1.LoginStripButton.Visible = False
+            'sqlRd.Close()
+            'sqlConn.Close()
+            'MessageBox.Show("User valid")
+            'MDIParent1.PaymentToolStripButton.Visible = True
+            'MDIParent1.LoginStripButton.Visible = False
 
         Else
             MessageBox.Show("User not found")

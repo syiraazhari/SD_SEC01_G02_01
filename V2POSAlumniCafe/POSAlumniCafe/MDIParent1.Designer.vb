@@ -48,7 +48,7 @@ Partial Class MDIParent1
         Me.ToolStrip.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.LoginStripButton, Me.PaymentToolStripButton, Me.ExitToolStripButton, Me.ReportToolStripButton, Me.StaffToolStripButton, Me.InventoryToolStripButton, Me.ProfileToolStripButton, Me.SettingToolStripButton})
         Me.ToolStrip.Location = New System.Drawing.Point(0, 0)
         Me.ToolStrip.Name = "ToolStrip"
-        Me.ToolStrip.Size = New System.Drawing.Size(75, 656)
+        Me.ToolStrip.Size = New System.Drawing.Size(51, 656)
         Me.ToolStrip.TabIndex = 6
         Me.ToolStrip.Text = "ToolStrip"
         '
@@ -57,7 +57,7 @@ Partial Class MDIParent1
         Me.LoginStripButton.Image = CType(resources.GetObject("LoginStripButton.Image"), System.Drawing.Image)
         Me.LoginStripButton.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.LoginStripButton.Name = "LoginStripButton"
-        Me.LoginStripButton.Size = New System.Drawing.Size(72, 44)
+        Me.LoginStripButton.Size = New System.Drawing.Size(48, 44)
         Me.LoginStripButton.Text = "Login"
         Me.LoginStripButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
@@ -90,6 +90,7 @@ Partial Class MDIParent1
         Me.ReportToolStripButton.Size = New System.Drawing.Size(72, 44)
         Me.ReportToolStripButton.Text = "Report"
         Me.ReportToolStripButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        Me.ReportToolStripButton.Visible = False
         '
         'StaffToolStripButton
         '
@@ -99,6 +100,7 @@ Partial Class MDIParent1
         Me.StaffToolStripButton.Size = New System.Drawing.Size(72, 44)
         Me.StaffToolStripButton.Text = "Staff"
         Me.StaffToolStripButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        Me.StaffToolStripButton.Visible = False
         '
         'InventoryToolStripButton
         '
@@ -108,24 +110,27 @@ Partial Class MDIParent1
         Me.InventoryToolStripButton.Size = New System.Drawing.Size(72, 44)
         Me.InventoryToolStripButton.Text = "Inventory"
         Me.InventoryToolStripButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        Me.InventoryToolStripButton.Visible = False
         '
         'ProfileToolStripButton
         '
         Me.ProfileToolStripButton.Image = CType(resources.GetObject("ProfileToolStripButton.Image"), System.Drawing.Image)
         Me.ProfileToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ProfileToolStripButton.Name = "ProfileToolStripButton"
-        Me.ProfileToolStripButton.Size = New System.Drawing.Size(72, 44)
+        Me.ProfileToolStripButton.Size = New System.Drawing.Size(58, 44)
         Me.ProfileToolStripButton.Text = "Profile"
         Me.ProfileToolStripButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        Me.ProfileToolStripButton.Visible = False
         '
         'SettingToolStripButton
         '
         Me.SettingToolStripButton.Image = CType(resources.GetObject("SettingToolStripButton.Image"), System.Drawing.Image)
         Me.SettingToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.SettingToolStripButton.Name = "SettingToolStripButton"
-        Me.SettingToolStripButton.Size = New System.Drawing.Size(72, 44)
+        Me.SettingToolStripButton.Size = New System.Drawing.Size(58, 44)
         Me.SettingToolStripButton.Text = "Setting"
         Me.SettingToolStripButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        Me.SettingToolStripButton.Visible = False
         '
         'StatusStrip
         '

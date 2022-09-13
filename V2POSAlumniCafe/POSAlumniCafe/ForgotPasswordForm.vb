@@ -55,6 +55,8 @@ Public Class ForgotPasswordForm
     Private Sub EnterCodeButton_Click(sender As Object, e As EventArgs) Handles EnterCodeButton.Click
         Dim codeEntered As Integer = Integer.Parse(CodeTextBox.Text)
 
+        Hide()
+
         If codeEntered = oneTimeCode Then
             With SetForgotPasswordForm
                 .MdiParent = MDIParent1

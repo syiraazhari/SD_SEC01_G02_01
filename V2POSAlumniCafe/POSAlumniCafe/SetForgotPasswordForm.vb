@@ -8,15 +8,16 @@
 
 
         If newPassword = reEnterPassword Then
-                sqlConn.Close()
-                updatePassword(newPassword, empId)
-                MessageBox.Show("Successfully change your password")
+            sqlConn.Close()
+            updatePassword(newPassword, empId)
+            MessageBox.Show("Successfully change your password")
+            Hide()
 
-                With LoginForm
-                    .MdiParent = MDIParent1
-                    .WindowState = FormWindowState.Maximized
-                    .Show()
-                End With
+            With LoginForm
+                .MdiParent = MDIParent1
+                .WindowState = FormWindowState.Maximized
+                .Show()
+            End With
 
 
         Else
