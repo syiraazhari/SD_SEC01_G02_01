@@ -1,0 +1,194 @@
+C:\Users\Raj\Desktop\Restaurant Management System\Restaurant Management System\bin\Debug\Restaurant Management System.exe.config
+C:\Users\Raj\Desktop\Restaurant Management System\Restaurant Management System\bin\Debug\Restaurant Management System.exe
+C:\Users\Raj\Desktop\Restaurant Management System\Restaurant Management System\bin\Debug\Restaurant Management System.pdb
+C:\Users\Raj\Desktop\Restaurant Management System\Restaurant Management System\bin\Debug\Restaurant Management System.xml
+C:\Users\Raj\Desktop\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant Management System.vbprojResolveAssemblyReference.cache
+C:\Users\Raj\Desktop\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmAvailableTables.resources
+C:\Users\Raj\Desktop\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmCustomDialog1.resources
+C:\Users\Raj\Desktop\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmCustomDialog2.resources
+C:\Users\Raj\Desktop\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmDeleteInvoice.resources
+C:\Users\Raj\Desktop\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmActivation.resources
+C:\Users\Raj\Desktop\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmBillling.resources
+C:\Users\Raj\Desktop\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmAbout.resources
+C:\Users\Raj\Desktop\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmCategory.resources
+C:\Users\Raj\Desktop\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmChangePassword.resources
+C:\Users\Raj\Desktop\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmCustomDialog.resources
+C:\Users\Raj\Desktop\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmGetCash.resources
+C:\Users\Raj\Desktop\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmItem.resources
+C:\Users\Raj\Desktop\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmLock.resources
+C:\Users\Raj\Desktop\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmLogin.resources
+C:\Users\Raj\Desktop\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmMenuItemsExportImport.resources
+C:\Users\Raj\Desktop\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmNotes.resources
+C:\Users\Raj\Desktop\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmNotes1.resources
+C:\Users\Raj\Desktop\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmNotesMaster.resources
+C:\Users\Raj\Desktop\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmInventoryType.resources
+C:\Users\Raj\Desktop\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmKitchen_Section.resources
+C:\Users\Raj\Desktop\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmLogs.resources
+C:\Users\Raj\Desktop\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmMainMenu.resources
+C:\Users\Raj\Desktop\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmPrinterSetting.resources
+C:\Users\Raj\Desktop\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmRegistration.resources
+C:\Users\Raj\Desktop\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmRestaurantMaster.resources
+C:\Users\Raj\Desktop\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmSplash.resources
+C:\Users\Raj\Desktop\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmTable.resources
+C:\Users\Raj\Desktop\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.Resources.resources
+C:\Users\Raj\Desktop\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant Management System.vbproj.GenerateResource.Cache
+C:\Users\Raj\Desktop\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant Management System.exe
+C:\Users\Raj\Desktop\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant Management System.xml
+C:\Users\Raj\Desktop\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant Management System.pdb
+C:\Documents and Settings\Administrator\My Documents\Downloads\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\bin\Debug\Restaurant Management System.exe.config
+C:\Documents and Settings\Administrator\My Documents\Downloads\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant Management System.exe
+C:\Documents and Settings\Administrator\My Documents\Downloads\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant Management System.xml
+C:\Documents and Settings\Administrator\My Documents\Downloads\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant Management System.pdb
+C:\Documents and Settings\Administrator\My Documents\Downloads\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\bin\Debug\Restaurant Management System.exe
+C:\Documents and Settings\Administrator\My Documents\Downloads\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\bin\Debug\Restaurant Management System.pdb
+C:\Documents and Settings\Administrator\My Documents\Downloads\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\bin\Debug\Restaurant Management System.xml
+C:\Documents and Settings\Administrator\My Documents\Downloads\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Downloads\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmAvailableTables.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmCustomDialog1.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmCustomDialog2.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmDeleteInvoice.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmActivation.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmBillling.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmAbout.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmCategory.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmChangePassword.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmCustomDialog.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmGetCash.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmItem.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmLock.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmLogin.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmMenuItemsExportImport.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmNotes.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmNotes1.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmNotesMaster.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmInventoryType.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmKitchen_Section.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmLogs.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmMainMenu.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmPrinterSetting.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmRegistration.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmRestaurantMaster.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmSplash.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmTable.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.Resources.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\My Documents\Downloads\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\My Documents\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\bin\Debug\Restaurant Management System.exe.config
+C:\Documents and Settings\Administrator\My Documents\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant Management System.exe
+C:\Documents and Settings\Administrator\My Documents\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant Management System.xml
+C:\Documents and Settings\Administrator\My Documents\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant Management System.pdb
+C:\Documents and Settings\Administrator\My Documents\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\bin\Debug\Restaurant Management System.exe
+C:\Documents and Settings\Administrator\My Documents\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\bin\Debug\Restaurant Management System.pdb
+C:\Documents and Settings\Administrator\My Documents\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\bin\Debug\Restaurant Management System.xml
+C:\Documents and Settings\Administrator\My Documents\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmAvailableTables.resources
+C:\Documents and Settings\Administrator\My Documents\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmBillingRecord.resources
+C:\Documents and Settings\Administrator\My Documents\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmCustomDialog1.resources
+C:\Documents and Settings\Administrator\My Documents\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmCustomDialog2.resources
+C:\Documents and Settings\Administrator\My Documents\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmDeleteInvoice.resources
+C:\Documents and Settings\Administrator\My Documents\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmBillling.resources
+C:\Documents and Settings\Administrator\My Documents\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmAbout.resources
+C:\Documents and Settings\Administrator\My Documents\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmCategory.resources
+C:\Documents and Settings\Administrator\My Documents\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmChangePassword.resources
+C:\Documents and Settings\Administrator\My Documents\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmCustomDialog.resources
+C:\Documents and Settings\Administrator\My Documents\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmGetCash.resources
+C:\Documents and Settings\Administrator\My Documents\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmItem.resources
+C:\Documents and Settings\Administrator\My Documents\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmLock.resources
+C:\Documents and Settings\Administrator\My Documents\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmLogin.resources
+C:\Documents and Settings\Administrator\My Documents\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmMenuItemsExportImport.resources
+C:\Documents and Settings\Administrator\My Documents\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmNotes.resources
+C:\Documents and Settings\Administrator\My Documents\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmNotes1.resources
+C:\Documents and Settings\Administrator\My Documents\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmNotesMaster.resources
+C:\Documents and Settings\Administrator\My Documents\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmInventoryType.resources
+C:\Documents and Settings\Administrator\My Documents\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmKitchen_Section.resources
+C:\Documents and Settings\Administrator\My Documents\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmLogs.resources
+C:\Documents and Settings\Administrator\My Documents\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmMainMenu.resources
+C:\Documents and Settings\Administrator\My Documents\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmPrinterSetting.resources
+C:\Documents and Settings\Administrator\My Documents\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmRegistration.resources
+C:\Documents and Settings\Administrator\My Documents\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmRestaurantMaster.resources
+C:\Documents and Settings\Administrator\My Documents\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmSplash.resources
+C:\Documents and Settings\Administrator\My Documents\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmTable.resources
+C:\Documents and Settings\Administrator\My Documents\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.Resources.resources
+C:\Documents and Settings\Administrator\My Documents\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\My Documents\Restaurant Management System (1)\Restaurant Management System\Restaurant Management System\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\dell\Pictures\output\asp project\Restaurant Management System_Fixed\Restaurant Management System\Restaurant Management System\bin\Debug\Restaurant Management System.exe.config
+C:\Users\dell\Pictures\output\asp project\Restaurant Management System_Fixed\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant Management System.xml
+C:\Users\dell\Pictures\output\asp project\Restaurant Management System_Fixed\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant Management System.pdb
+C:\Users\dell\Pictures\output\asp project\Restaurant Management System_Fixed\Restaurant Management System\Restaurant Management System\bin\Debug\Restaurant Management System.exe
+C:\Users\dell\Pictures\output\asp project\Restaurant Management System_Fixed\Restaurant Management System\Restaurant Management System\bin\Debug\Restaurant Management System.pdb
+C:\Users\dell\Pictures\output\asp project\Restaurant Management System_Fixed\Restaurant Management System\Restaurant Management System\bin\Debug\Restaurant Management System.xml
+C:\Users\dell\Pictures\output\asp project\Restaurant Management System_Fixed\Restaurant Management System\Restaurant Management System\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\dell\Pictures\output\asp project\Restaurant Management System_Fixed\Restaurant Management System\Restaurant Management System\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\dell\Pictures\output\asp project\Restaurant Management System_Fixed\Restaurant Management System\Restaurant Management System\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\dell\Pictures\output\asp project\Restaurant Management System_Fixed\Restaurant Management System\Restaurant Management System\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\dell\Pictures\output\asp project\Restaurant Management System_Fixed\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant Management System.vbprojResolveAssemblyReference.cache
+C:\Users\dell\Pictures\output\asp project\Restaurant Management System_Fixed\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmAvailableTables.resources
+C:\Users\dell\Pictures\output\asp project\Restaurant Management System_Fixed\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmBillingRecord.resources
+C:\Users\dell\Pictures\output\asp project\Restaurant Management System_Fixed\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmCustomDialog1.resources
+C:\Users\dell\Pictures\output\asp project\Restaurant Management System_Fixed\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmCustomDialog2.resources
+C:\Users\dell\Pictures\output\asp project\Restaurant Management System_Fixed\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmDeleteInvoice.resources
+C:\Users\dell\Pictures\output\asp project\Restaurant Management System_Fixed\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmBillling.resources
+C:\Users\dell\Pictures\output\asp project\Restaurant Management System_Fixed\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmAbout.resources
+C:\Users\dell\Pictures\output\asp project\Restaurant Management System_Fixed\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmCategory.resources
+C:\Users\dell\Pictures\output\asp project\Restaurant Management System_Fixed\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmChangePassword.resources
+C:\Users\dell\Pictures\output\asp project\Restaurant Management System_Fixed\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmCustomDialog.resources
+C:\Users\dell\Pictures\output\asp project\Restaurant Management System_Fixed\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmGetCash.resources
+C:\Users\dell\Pictures\output\asp project\Restaurant Management System_Fixed\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmItem.resources
+C:\Users\dell\Pictures\output\asp project\Restaurant Management System_Fixed\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmLock.resources
+C:\Users\dell\Pictures\output\asp project\Restaurant Management System_Fixed\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmLogin.resources
+C:\Users\dell\Pictures\output\asp project\Restaurant Management System_Fixed\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmMenuItemsExportImport.resources
+C:\Users\dell\Pictures\output\asp project\Restaurant Management System_Fixed\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmNotes.resources
+C:\Users\dell\Pictures\output\asp project\Restaurant Management System_Fixed\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmNotes1.resources
+C:\Users\dell\Pictures\output\asp project\Restaurant Management System_Fixed\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmNotesMaster.resources
+C:\Users\dell\Pictures\output\asp project\Restaurant Management System_Fixed\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmInventoryType.resources
+C:\Users\dell\Pictures\output\asp project\Restaurant Management System_Fixed\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmKitchen_Section.resources
+C:\Users\dell\Pictures\output\asp project\Restaurant Management System_Fixed\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmLogs.resources
+C:\Users\dell\Pictures\output\asp project\Restaurant Management System_Fixed\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmMainMenu.resources
+C:\Users\dell\Pictures\output\asp project\Restaurant Management System_Fixed\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmPrinterSetting.resources
+C:\Users\dell\Pictures\output\asp project\Restaurant Management System_Fixed\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmRegistration.resources
+C:\Users\dell\Pictures\output\asp project\Restaurant Management System_Fixed\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmRestaurantMaster.resources
+C:\Users\dell\Pictures\output\asp project\Restaurant Management System_Fixed\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmSplash.resources
+C:\Users\dell\Pictures\output\asp project\Restaurant Management System_Fixed\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmTable.resources
+C:\Users\dell\Pictures\output\asp project\Restaurant Management System_Fixed\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.Resources.resources
+C:\Users\dell\Pictures\output\asp project\Restaurant Management System_Fixed\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant Management System.vbproj.GenerateResource.Cache
+C:\Users\dell\Pictures\output\asp project\Restaurant Management System_Fixed\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant Management System.exe
+C:\Users\ASUS\Downloads\Compressed\Restaurant Management System\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant Management System.vbproj.AssemblyReference.cache
+C:\Users\ASUS\Downloads\Compressed\Restaurant Management System\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmAvailableTables.resources
+C:\Users\ASUS\Downloads\Compressed\Restaurant Management System\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmBillingRecord.resources
+C:\Users\ASUS\Downloads\Compressed\Restaurant Management System\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmCustomDialog1.resources
+C:\Users\ASUS\Downloads\Compressed\Restaurant Management System\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmCustomDialog2.resources
+C:\Users\ASUS\Downloads\Compressed\Restaurant Management System\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmDeleteInvoice.resources
+C:\Users\ASUS\Downloads\Compressed\Restaurant Management System\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmBillling.resources
+C:\Users\ASUS\Downloads\Compressed\Restaurant Management System\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmAbout.resources
+C:\Users\ASUS\Downloads\Compressed\Restaurant Management System\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmCategory.resources
+C:\Users\ASUS\Downloads\Compressed\Restaurant Management System\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmChangePassword.resources
+C:\Users\ASUS\Downloads\Compressed\Restaurant Management System\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmCustomDialog.resources
+C:\Users\ASUS\Downloads\Compressed\Restaurant Management System\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmGetCash.resources
+C:\Users\ASUS\Downloads\Compressed\Restaurant Management System\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmItem.resources
+C:\Users\ASUS\Downloads\Compressed\Restaurant Management System\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmLock.resources
+C:\Users\ASUS\Downloads\Compressed\Restaurant Management System\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmLogin.resources
+C:\Users\ASUS\Downloads\Compressed\Restaurant Management System\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmMenuItemsExportImport.resources
+C:\Users\ASUS\Downloads\Compressed\Restaurant Management System\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmNotes.resources
+C:\Users\ASUS\Downloads\Compressed\Restaurant Management System\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmNotes1.resources
+C:\Users\ASUS\Downloads\Compressed\Restaurant Management System\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmNotesMaster.resources
+C:\Users\ASUS\Downloads\Compressed\Restaurant Management System\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmInventoryType.resources
+C:\Users\ASUS\Downloads\Compressed\Restaurant Management System\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmKitchen_Section.resources
+C:\Users\ASUS\Downloads\Compressed\Restaurant Management System\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmLogs.resources
+C:\Users\ASUS\Downloads\Compressed\Restaurant Management System\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmMainMenu.resources
+C:\Users\ASUS\Downloads\Compressed\Restaurant Management System\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmPrinterSetting.resources
+C:\Users\ASUS\Downloads\Compressed\Restaurant Management System\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmRegistration.resources
+C:\Users\ASUS\Downloads\Compressed\Restaurant Management System\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmRestaurantMaster.resources
+C:\Users\ASUS\Downloads\Compressed\Restaurant Management System\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmSplash.resources
+C:\Users\ASUS\Downloads\Compressed\Restaurant Management System\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.frmTable.resources
+C:\Users\ASUS\Downloads\Compressed\Restaurant Management System\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant_Management_System.Resources.resources
+C:\Users\ASUS\Downloads\Compressed\Restaurant Management System\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant Management System.vbproj.GenerateResource.cache
+C:\Users\ASUS\Downloads\Compressed\Restaurant Management System\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant Management System.vbproj.CoreCompileInputs.cache
+C:\Users\ASUS\Downloads\Compressed\Restaurant Management System\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant Management System.exe
+C:\Users\ASUS\Downloads\Compressed\Restaurant Management System\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant Management System.xml
+C:\Users\ASUS\Downloads\Compressed\Restaurant Management System\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant Management System.pdb
+C:\Users\ASUS\Downloads\Compressed\Restaurant Management System\Restaurant Management System\Restaurant Management System\bin\Debug\Restaurant Management System.exe.config
+C:\Users\ASUS\Downloads\Compressed\Restaurant Management System\Restaurant Management System\Restaurant Management System\bin\Debug\Restaurant Management System.exe
+C:\Users\ASUS\Downloads\Compressed\Restaurant Management System\Restaurant Management System\Restaurant Management System\bin\Debug\Restaurant Management System.pdb
+C:\Users\ASUS\Downloads\Compressed\Restaurant Management System\Restaurant Management System\Restaurant Management System\bin\Debug\Restaurant Management System.xml
+C:\Users\ASUS\Downloads\Compressed\Restaurant Management System\Restaurant Management System\Restaurant Management System\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\ASUS\Downloads\Compressed\Restaurant Management System\Restaurant Management System\Restaurant Management System\obj\x86\Debug\Restaurant Management System.vbproj.CopyComplete
