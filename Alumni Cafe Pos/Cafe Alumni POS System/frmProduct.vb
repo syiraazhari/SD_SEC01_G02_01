@@ -23,7 +23,7 @@ Public Class frmProduct
         txtDescription.Clear()
         txtCostPrice.Clear()
         txtSellPrice.Clear()
-        cbocategory.SelectedText = ""
+        cbocategory.SelectedText = -1
         PictureBox1.Image = Image.FromFile(Application.StartupPath & "\nopictures.png")
     End Sub
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles btnSave.Click

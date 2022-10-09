@@ -53,7 +53,7 @@ Public Class MainWindow
     End Sub
     Private Sub btnMaster_Click(sender As Object, e As EventArgs) Handles btnMaster.Click
         If pnlMaster.Height = 10 Then
-            pnlMaster.Height = 188
+            pnlMaster.Height = 168
         Else
             pnlMaster.Height = 10
 
@@ -71,7 +71,7 @@ Public Class MainWindow
 
     Private Sub btnReport_Click(sender As Object, e As EventArgs) Handles btnReport.Click
         If pnlReport.Height = 10 Then
-            pnlReport.Height = 56
+            pnlReport.Height = 116
         Else
             pnlReport.Height = 10
 

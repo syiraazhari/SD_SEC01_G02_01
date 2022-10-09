@@ -38,6 +38,7 @@ Partial Class frmLogin
         Me.Panel5 = New System.Windows.Forms.Panel()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Guna2DragControl1 = New Guna.UI2.WinForms.Guna2DragControl(Me.components)
+        Me.Guna2DragControl2 = New Guna.UI2.WinForms.Guna2DragControl(Me.components)
         Me.Panel2.SuspendLayout()
         Me.Panel5.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -195,6 +196,12 @@ Partial Class frmLogin
         Me.Guna2DragControl1.TargetControl = Me.Panel2
         Me.Guna2DragControl1.UseTransparentDrag = True
         '
+        'Guna2DragControl2
+        '
+        Me.Guna2DragControl2.DockIndicatorTransparencyValue = 0.6R
+        Me.Guna2DragControl2.TargetControl = Me.LabelCategory
+        Me.Guna2DragControl2.UseTransparentDrag = True
+        '
         'frmLogin
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
@@ -240,4 +247,5 @@ Partial Class frmLogin
     Friend WithEvents Panel5 As Panel
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Guna2DragControl1 As Guna.UI2.WinForms.Guna2DragControl
+    Friend WithEvents Guna2DragControl2 As Guna.UI2.WinForms.Guna2DragControl
 End Class

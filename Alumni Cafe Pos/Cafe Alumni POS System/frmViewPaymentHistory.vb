@@ -22,4 +22,8 @@ Public Class frmViewPaymentHistory
     Private Sub btnClose_Click(sender As Object, e As EventArgs) Handles btnClose.Click
         Me.Dispose()
     End Sub
+
+    Private Sub frmViewPaymentHistory_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        LoadPaymentHistory()
+    End Sub
 End Class

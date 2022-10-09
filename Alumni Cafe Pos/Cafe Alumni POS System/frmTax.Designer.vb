@@ -22,6 +22,7 @@ Partial Class frmTax
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.LabelCategory = New System.Windows.Forms.Label()
         Me.btnClose = New System.Windows.Forms.Button()
@@ -30,6 +31,7 @@ Partial Class frmTax
         Me.btnSave = New System.Windows.Forms.Button()
         Me.txtTax = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.Guna2DragControl1 = New Guna.UI2.WinForms.Guna2DragControl(Me.components)
         Me.Panel2.SuspendLayout()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
@@ -60,6 +62,7 @@ Partial Class frmTax
         '
         'btnClose
         '
+        Me.btnClose.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.btnClose.FlatAppearance.BorderSize = 0
         Me.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnClose.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -74,10 +77,10 @@ Partial Class frmTax
         'TabControl1
         '
         Me.TabControl1.Controls.Add(Me.TabPage1)
-        Me.TabControl1.Location = New System.Drawing.Point(12, 70)
+        Me.TabControl1.Location = New System.Drawing.Point(4, 60)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
-        Me.TabControl1.Size = New System.Drawing.Size(309, 160)
+        Me.TabControl1.Size = New System.Drawing.Size(331, 181)
         Me.TabControl1.TabIndex = 6
         '
         'TabPage1
@@ -88,7 +91,7 @@ Partial Class frmTax
         Me.TabPage1.Location = New System.Drawing.Point(4, 24)
         Me.TabPage1.Name = "TabPage1"
         Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage1.Size = New System.Drawing.Size(301, 132)
+        Me.TabPage1.Size = New System.Drawing.Size(323, 153)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "Tax"
         Me.TabPage1.UseVisualStyleBackColor = True
@@ -123,10 +126,17 @@ Partial Class frmTax
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Enter Tax (%)"
         '
+        'Guna2DragControl1
+        '
+        Me.Guna2DragControl1.DockIndicatorTransparencyValue = 0.6R
+        Me.Guna2DragControl1.TargetControl = Me.Panel2
+        Me.Guna2DragControl1.UseTransparentDrag = True
+        '
         'frmTax
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.ClientSize = New System.Drawing.Size(340, 247)
         Me.Controls.Add(Me.TabControl1)
         Me.Controls.Add(Me.Panel2)
@@ -152,4 +162,5 @@ Partial Class frmTax
     Friend WithEvents btnSave As Button
     Friend WithEvents txtTax As TextBox
     Friend WithEvents Label1 As Label
+    Friend WithEvents Guna2DragControl1 As Guna.UI2.WinForms.Guna2DragControl
 End Class

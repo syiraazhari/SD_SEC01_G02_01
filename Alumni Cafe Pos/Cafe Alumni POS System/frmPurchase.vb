@@ -4,13 +4,9 @@ Public Class frmPurchase
 
     Public _PID As String
     Public _Category As String
-    Private Sub LabelCategory_Click(sender As Object, e As EventArgs) Handles LabelCategory.Click
-
-    End Sub
 
     Private Sub btnClose_Click(sender As Object, e As EventArgs) Handles btnClose.Click
         Me.Dispose()
-
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
@@ -68,7 +64,7 @@ Public Class frmPurchase
     End Sub
 
     Private Sub DateTimePicker1_ValueChanged(sender As Object, e As EventArgs) Handles DateTimePicker1.ValueChanged
-        txtDate.Text = Format(Me.DateTimePicker1.Value, "yyy-MM-dd")
+        txtDate.Text = Format(Me.DateTimePicker1.Value, "yyyy-MM-dd")
     End Sub
 
     Sub LoadSupplierName()
@@ -186,6 +182,7 @@ Public Class frmPurchase
             cn.Close()
         End If
         txtQty.Clear()
+        txtSearch.Clear()
         txtDescription.Clear()
         txtPrice.Clear()
         txtAmount.Text = "0.00"
@@ -252,7 +249,6 @@ Public Class frmPurchase
         cmd = New MySqlCommand("update tbl_purchase set Status = 'Settled' where InvoiceNo='" & lblInvoiceNo.Text & "'", cn)
         cmd.ExecuteNonQuery()
         cn.Close()
-
     End Sub
 
     Sub loadStock()
@@ -263,7 +259,7 @@ Public Class frmPurchase
             Dim Qty As Integer = Me.Guna2DataGridView1.Rows(i).Cells(4).Value
 
             cn.Open()
-            cmd = New MySqlCommand("insert into tbl_stockin(SDate, PID,Description,Category,Qty) values(@SDate, @PID,@Description,@Category,@Qty)", cn)
+            cmd = New MySqlCommand("insert into tbl_stockin(SDate,PID,Description,Category,Qty) values(@SDate,@PID,@Description,@Category,@Qty)", cn)
             With cmd
                 .Parameters.AddWithValue("SDate", txtDate.Text)
                 .Parameters.AddWithValue("PID", PID)

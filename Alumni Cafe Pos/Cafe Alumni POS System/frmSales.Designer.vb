@@ -23,9 +23,9 @@ Partial Class frmSales
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -43,7 +43,6 @@ Partial Class frmSales
         Me.FlowLayoutPanel1 = New System.Windows.Forms.FlowLayoutPanel()
         Me.Panel4 = New System.Windows.Forms.Panel()
         Me.Panel6 = New System.Windows.Forms.Panel()
-        Me.chkUnPaid = New System.Windows.Forms.CheckBox()
         Me.lblChange = New System.Windows.Forms.Label()
         Me.lblNetTotal = New System.Windows.Forms.Label()
         Me.lblCash = New System.Windows.Forms.Label()
@@ -102,7 +101,7 @@ Partial Class frmSales
         Me.Label13.ForeColor = System.Drawing.Color.Red
         Me.Label13.Location = New System.Drawing.Point(1046, 63)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(151, 25)
+        Me.Label13.Size = New System.Drawing.Size(119, 20)
         Me.Label13.TabIndex = 8
         Me.Label13.Text = "Occupied Table"
         '
@@ -113,7 +112,7 @@ Partial Class frmSales
         Me.Label2.ForeColor = System.Drawing.Color.White
         Me.Label2.Location = New System.Drawing.Point(22, 59)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(104, 25)
+        Me.Label2.Size = New System.Drawing.Size(83, 20)
         Me.Label2.TabIndex = 7
         Me.Label2.Text = "Invoice No"
         '
@@ -124,7 +123,7 @@ Partial Class frmSales
         Me.lblInvoiceNo.ForeColor = System.Drawing.Color.White
         Me.lblInvoiceNo.Location = New System.Drawing.Point(111, 59)
         Me.lblInvoiceNo.Name = "lblInvoiceNo"
-        Me.lblInvoiceNo.Size = New System.Drawing.Size(111, 25)
+        Me.lblInvoiceNo.Size = New System.Drawing.Size(90, 20)
         Me.lblInvoiceNo.TabIndex = 6
         Me.lblInvoiceNo.Text = "000000000"
         '
@@ -133,7 +132,7 @@ Partial Class frmSales
         Me.cboTable.FormattingEnabled = True
         Me.cboTable.Location = New System.Drawing.Point(126, 21)
         Me.cboTable.Name = "cboTable"
-        Me.cboTable.Size = New System.Drawing.Size(185, 26)
+        Me.cboTable.Size = New System.Drawing.Size(185, 23)
         Me.cboTable.TabIndex = 5
         '
         'Label1
@@ -143,7 +142,7 @@ Partial Class frmSales
         Me.Label1.ForeColor = System.Drawing.Color.White
         Me.Label1.Location = New System.Drawing.Point(22, 23)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(122, 25)
+        Me.Label1.Size = New System.Drawing.Size(97, 20)
         Me.Label1.TabIndex = 4
         Me.Label1.Text = "Select Table"
         '
@@ -152,9 +151,9 @@ Partial Class frmSales
         Me.LabelCategory.AutoSize = True
         Me.LabelCategory.Font = New System.Drawing.Font("Forte", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelCategory.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.LabelCategory.Location = New System.Drawing.Point(691, 32)
+        Me.LabelCategory.Location = New System.Drawing.Point(729, 23)
         Me.LabelCategory.Name = "LabelCategory"
-        Me.LabelCategory.Size = New System.Drawing.Size(383, 37)
+        Me.LabelCategory.Size = New System.Drawing.Size(305, 30)
         Me.LabelCategory.TabIndex = 3
         Me.LabelCategory.Text = "Alumni Cafe POS System"
         Me.LabelCategory.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -194,7 +193,7 @@ Partial Class frmSales
         Me.lblTime.ForeColor = System.Drawing.Color.White
         Me.lblTime.Location = New System.Drawing.Point(1046, 22)
         Me.lblTime.Name = "lblTime"
-        Me.lblTime.Size = New System.Drawing.Size(69, 29)
+        Me.lblTime.Size = New System.Drawing.Size(53, 24)
         Me.lblTime.TabIndex = 4
         Me.lblTime.Text = "Time"
         '
@@ -204,9 +203,9 @@ Partial Class frmSales
         Me.lblDate.AutoSize = True
         Me.lblDate.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblDate.ForeColor = System.Drawing.Color.White
-        Me.lblDate.Location = New System.Drawing.Point(890, 22)
+        Me.lblDate.Location = New System.Drawing.Point(857, 22)
         Me.lblDate.Name = "lblDate"
-        Me.lblDate.Size = New System.Drawing.Size(63, 29)
+        Me.lblDate.Size = New System.Drawing.Size(48, 24)
         Me.lblDate.TabIndex = 3
         Me.lblDate.Text = "Date"
         '
@@ -270,7 +269,6 @@ Partial Class frmSales
         Me.Panel6.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel6.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Panel6.Controls.Add(Me.chkUnPaid)
         Me.Panel6.Controls.Add(Me.lblChange)
         Me.Panel6.Controls.Add(Me.lblNetTotal)
         Me.Panel6.Controls.Add(Me.lblCash)
@@ -285,19 +283,6 @@ Partial Class frmSales
         Me.Panel6.Name = "Panel6"
         Me.Panel6.Size = New System.Drawing.Size(610, 165)
         Me.Panel6.TabIndex = 1
-        '
-        'chkUnPaid
-        '
-        Me.chkUnPaid.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.chkUnPaid.AutoSize = True
-        Me.chkUnPaid.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.chkUnPaid.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.chkUnPaid.Location = New System.Drawing.Point(13, 130)
-        Me.chkUnPaid.Name = "chkUnPaid"
-        Me.chkUnPaid.Size = New System.Drawing.Size(126, 29)
-        Me.chkUnPaid.TabIndex = 10
-        Me.chkUnPaid.Text = "Unpaid Bill"
-        Me.chkUnPaid.UseVisualStyleBackColor = True
         '
         'lblChange
         '
@@ -355,7 +340,7 @@ Partial Class frmSales
         Me.Label8.ForeColor = System.Drawing.Color.White
         Me.Label8.Location = New System.Drawing.Point(431, 99)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(99, 25)
+        Me.Label8.Size = New System.Drawing.Size(80, 20)
         Me.Label8.TabIndex = 5
         Me.Label8.Text = "Changes"
         Me.Label8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -368,7 +353,7 @@ Partial Class frmSales
         Me.Label7.ForeColor = System.Drawing.Color.White
         Me.Label7.Location = New System.Drawing.Point(431, 128)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(100, 25)
+        Me.Label7.Size = New System.Drawing.Size(82, 20)
         Me.Label7.TabIndex = 4
         Me.Label7.Text = "Net Total"
         Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -381,7 +366,7 @@ Partial Class frmSales
         Me.Label6.ForeColor = System.Drawing.Color.White
         Me.Label6.Location = New System.Drawing.Point(472, 71)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(59, 25)
+        Me.Label6.Size = New System.Drawing.Size(46, 20)
         Me.Label6.TabIndex = 3
         Me.Label6.Text = "Cash"
         Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -394,7 +379,7 @@ Partial Class frmSales
         Me.Label5.ForeColor = System.Drawing.Color.White
         Me.Label5.Location = New System.Drawing.Point(485, 40)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(46, 25)
+        Me.Label5.Size = New System.Drawing.Size(34, 20)
         Me.Label5.TabIndex = 2
         Me.Label5.Text = "Tax"
         Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -419,14 +404,14 @@ Partial Class frmSales
         Me.Label3.ForeColor = System.Drawing.Color.White
         Me.Label3.Location = New System.Drawing.Point(445, 9)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(97, 25)
+        Me.Label3.Size = New System.Drawing.Size(77, 20)
         Me.Label3.TabIndex = 0
         Me.Label3.Text = "Sub Total"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'Panel5
         '
-        Me.Panel5.BackColor = System.Drawing.Color.DarkGray
+        Me.Panel5.BackColor = System.Drawing.Color.White
         Me.Panel5.Controls.Add(Me.Guna2DataGridView1)
         Me.Panel5.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel5.Location = New System.Drawing.Point(0, 0)
@@ -436,35 +421,36 @@ Partial Class frmSales
         '
         'Guna2DataGridView1
         '
-        DataGridViewCellStyle1.BackColor = System.Drawing.Color.White
-        Me.Guna2DataGridView1.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
-        Me.Guna2DataGridView1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        DataGridViewCellStyle4.BackColor = System.Drawing.Color.White
+        Me.Guna2DataGridView1.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle4
+        Me.Guna2DataGridView1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle2.ForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.Guna2DataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
+        DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle5.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.Guna2DataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle5
         Me.Guna2DataGridView1.ColumnHeadersHeight = 17
         Me.Guna2DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing
         Me.Guna2DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3, Me.Column4, Me.Column5, Me.Column6, Me.Column7, Me.ColDel})
-        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle3.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
-        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
-        DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.Guna2DataGridView1.DefaultCellStyle = DataGridViewCellStyle3
+        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle6.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        DataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        DataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.Guna2DataGridView1.DefaultCellStyle = DataGridViewCellStyle6
         Me.Guna2DataGridView1.GridColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.Guna2DataGridView1.Location = New System.Drawing.Point(3, 6)
         Me.Guna2DataGridView1.Name = "Guna2DataGridView1"
         Me.Guna2DataGridView1.RowHeadersVisible = False
         Me.Guna2DataGridView1.RowHeadersWidth = 51
-        Me.Guna2DataGridView1.Size = New System.Drawing.Size(601, 288)
+        Me.Guna2DataGridView1.Size = New System.Drawing.Size(601, 400)
         Me.Guna2DataGridView1.TabIndex = 0
         Me.Guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White
         Me.Guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.Font = Nothing
@@ -494,7 +480,7 @@ Partial Class frmSales
         Me.Column1.HeaderText = "#"
         Me.Column1.MinimumWidth = 6
         Me.Column1.Name = "Column1"
-        Me.Column1.Width = 43
+        Me.Column1.Width = 37
         '
         'Column2
         '
@@ -547,7 +533,7 @@ Partial Class frmSales
         Me.ColDel.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom
         Me.ColDel.MinimumWidth = 6
         Me.ColDel.Name = "ColDel"
-        Me.ColDel.Width = 23
+        Me.ColDel.Width = 20
         '
         'Panel7
         '
@@ -581,12 +567,12 @@ Partial Class frmSales
         Me.DataGridViewImageColumn1.Image = Global.Cafe_Alumni_POS_System.My.Resources.Resources.litter
         Me.DataGridViewImageColumn1.MinimumWidth = 6
         Me.DataGridViewImageColumn1.Name = "DataGridViewImageColumn1"
-        Me.DataGridViewImageColumn1.Width = 125
         '
         'frmSales
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 18.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(1168, 621)
         Me.Controls.Add(Me.Panel7)
         Me.Controls.Add(Me.Panel4)
@@ -633,7 +619,6 @@ Partial Class frmSales
     Friend WithEvents btnGetCash As Button
     Friend WithEvents btnPayment As Button
     Friend WithEvents FlowLayoutPanel1 As FlowLayoutPanel
-    Friend WithEvents chkUnPaid As CheckBox
     Friend WithEvents lblChange As Label
     Friend WithEvents lblNetTotal As Label
     Friend WithEvents lblCash As Label

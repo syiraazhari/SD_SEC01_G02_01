@@ -3,7 +3,6 @@ Imports MySql.Data.MySqlClient
 Public Class frmStockOut
     Private Sub btnClose_Click(sender As Object, e As EventArgs) Handles btnClose.Click
         Me.Dispose()
-
     End Sub
 
     Private Sub btnShow_Click(sender As Object, e As EventArgs) Handles btnShow.Click

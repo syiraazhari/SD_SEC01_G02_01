@@ -15,8 +15,9 @@
     Private Sub frmSplashScreen_Load(sender As Object, e As EventArgs) Handles Me.Load
         Label1.BackColor = System.Drawing.Color.Transparent
         Label2.BackColor = System.Drawing.Color.Transparent
+        Label3.BackColor = System.Drawing.Color.Transparent
         Timer1.Enabled = True
         Timer1.Start()
-        Timer1.Interval = 10
+        Timer1.Interval = 5
     End Sub
 End Class

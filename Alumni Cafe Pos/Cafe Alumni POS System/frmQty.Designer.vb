@@ -35,7 +35,7 @@ Partial Class frmQty
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel2.Location = New System.Drawing.Point(0, 0)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(186, 54)
+        Me.Panel2.Size = New System.Drawing.Size(193, 54)
         Me.Panel2.TabIndex = 4
         '
         'LabelCategory
@@ -45,7 +45,7 @@ Partial Class frmQty
         Me.LabelCategory.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.LabelCategory.Location = New System.Drawing.Point(12, 14)
         Me.LabelCategory.Name = "LabelCategory"
-        Me.LabelCategory.Size = New System.Drawing.Size(159, 26)
+        Me.LabelCategory.Size = New System.Drawing.Size(200, 32)
         Me.LabelCategory.TabIndex = 3
         Me.LabelCategory.Text = "Enter Quantity"
         Me.LabelCategory.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -55,15 +55,15 @@ Partial Class frmQty
         Me.txtQty.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtQty.Location = New System.Drawing.Point(17, 73)
         Me.txtQty.Name = "txtQty"
-        Me.txtQty.Size = New System.Drawing.Size(154, 26)
+        Me.txtQty.Size = New System.Drawing.Size(154, 30)
         Me.txtQty.TabIndex = 5
         Me.txtQty.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'frmQty
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 18.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(186, 122)
+        Me.ClientSize = New System.Drawing.Size(193, 122)
         Me.Controls.Add(Me.txtQty)
         Me.Controls.Add(Me.Panel2)
         Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))

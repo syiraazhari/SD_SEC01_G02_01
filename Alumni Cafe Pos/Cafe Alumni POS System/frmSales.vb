@@ -387,7 +387,7 @@ Public Class frmSales
 
             If Duplicate = True Then
                 cn.Open()
-                cmd = New MySqlCommand("update tbl_stock set SalesQty = (SalesQty + @Qty) where StockID ='" & stockID & "'", cn)           'ISSUE: Command doesnt update database
+                cmd = New MySqlCommand("update tbl_stock set SalesQty =SalesQty+@Qty where StockID ='" & stockID & "'", cn)           'ISSUE: Command doesnt update database
                 cmd.Parameters.AddWithValue("@Qty", CInt(Qty_))
                 cn.Close()
             Else
@@ -403,8 +403,6 @@ Public Class frmSales
                 End With
                 cn.Close()
             End If
-
-
 
         Next
     End Sub

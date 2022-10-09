@@ -30,6 +30,7 @@ Partial Class frmSplashScreen
         Me.GunaProgressBar1 = New Guna.UI.WinForms.GunaProgressBar()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Guna2Elipse1
@@ -41,7 +42,7 @@ Partial Class frmSplashScreen
         Me.Label1.AutoSize = True
         Me.Label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Label1.Font = New System.Drawing.Font("FoughtKnight", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(12, 9)
+        Me.Label1.Location = New System.Drawing.Point(154, 353)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(241, 37)
         Me.Label1.TabIndex = 0
@@ -51,13 +52,16 @@ Partial Class frmSplashScreen
         '
         Me.GunaProgressBar1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.GunaProgressBar1.BackColor = System.Drawing.Color.Transparent
         Me.GunaProgressBar1.BorderColor = System.Drawing.Color.Black
+        Me.GunaProgressBar1.BorderSize = 1
         Me.GunaProgressBar1.ColorStyle = Guna.UI.WinForms.ColorStyle.[Default]
         Me.GunaProgressBar1.IdleColor = System.Drawing.Color.Gainsboro
         Me.GunaProgressBar1.Location = New System.Drawing.Point(7, 395)
         Me.GunaProgressBar1.Name = "GunaProgressBar1"
         Me.GunaProgressBar1.ProgressMaxColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.GunaProgressBar1.ProgressMinColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.GunaProgressBar1.ProgressMinColor = System.Drawing.Color.Lime
+        Me.GunaProgressBar1.Radius = 15
         Me.GunaProgressBar1.Size = New System.Drawing.Size(738, 23)
         Me.GunaProgressBar1.TabIndex = 1
         '
@@ -70,11 +74,23 @@ Partial Class frmSplashScreen
         Me.Label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Label2.Font = New System.Drawing.Font("FoughtKnight", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.DeepSkyBlue
-        Me.Label2.Location = New System.Drawing.Point(12, 46)
+        Me.Label2.Location = New System.Drawing.Point(380, 353)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(233, 37)
         Me.Label2.TabIndex = 2
         Me.Label2.Text = "POS SYSTEM"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.White
+        Me.Label3.Location = New System.Drawing.Point(9, 7)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(121, 20)
+        Me.Label3.TabIndex = 3
+        Me.Label3.Text = "VERSION 1.0.0"
         '
         'frmSplashScreen
         '
@@ -84,6 +100,7 @@ Partial Class frmSplashScreen
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(753, 420)
         Me.ControlBox = False
+        Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.GunaProgressBar1)
         Me.Controls.Add(Me.Label1)
@@ -105,4 +122,5 @@ Partial Class frmSplashScreen
     Friend WithEvents GunaProgressBar1 As Guna.UI.WinForms.GunaProgressBar
     Friend WithEvents Timer1 As Timer
     Friend WithEvents Label2 As Label
+    Friend WithEvents Label3 As Label
 End Class

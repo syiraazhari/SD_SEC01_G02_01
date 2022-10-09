@@ -22,6 +22,7 @@ Partial Class frmForgotPassword
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -30,6 +31,7 @@ Partial Class frmForgotPassword
         Me.txtNewPass = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
+        Me.Guna2DragControl1 = New Guna.UI2.WinForms.Guna2DragControl(Me.components)
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -75,7 +77,7 @@ Partial Class frmForgotPassword
         Me.btnSave.FlatAppearance.BorderSize = 0
         Me.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnSave.ForeColor = System.Drawing.Color.White
-        Me.btnSave.Location = New System.Drawing.Point(232, 152)
+        Me.btnSave.Location = New System.Drawing.Point(302, 149)
         Me.btnSave.Name = "btnSave"
         Me.btnSave.Size = New System.Drawing.Size(127, 41)
         Me.btnSave.TabIndex = 12
@@ -116,6 +118,12 @@ Partial Class frmForgotPassword
         Me.Label3.TabIndex = 8
         Me.Label3.Text = "New Password"
         '
+        'Guna2DragControl1
+        '
+        Me.Guna2DragControl1.DockIndicatorTransparencyValue = 0.6R
+        Me.Guna2DragControl1.TargetControl = Me.Panel1
+        Me.Guna2DragControl1.UseTransparentDrag = True
+        '
         'frmForgotPassword
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -146,4 +154,5 @@ Partial Class frmForgotPassword
     Friend WithEvents txtNewPass As TextBox
     Friend WithEvents Label4 As Label
     Friend WithEvents Label3 As Label
+    Friend WithEvents Guna2DragControl1 As Guna.UI2.WinForms.Guna2DragControl
 End Class

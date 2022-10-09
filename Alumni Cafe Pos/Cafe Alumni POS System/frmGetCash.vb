@@ -11,6 +11,7 @@
             change = cash - netTotal
             frmSales.lblChange.Text = FormatCurrency(change.ToString)
         End If
+        Me.Dispose()
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click

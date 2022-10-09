@@ -15,7 +15,7 @@ Public Class frmForgotPassword
 
         Try
             cn.Open()
-            cmd = New MySqlCommand("update tbl_users set Password=@Pass where UserID='" & StrUserID & "'", cn)
+            cmd = New MySqlCommand("update tbl_users set Password=@Pass where Email='" & frmVerification.txtEmail.Text & "'", cn)
             cmd.Parameters.AddWithValue("@Pass", txtNewPass.Text)
             cmd.ExecuteNonQuery()
             cn.Close()
@@ -24,7 +24,8 @@ Public Class frmForgotPassword
             cn.Close()
             MsgBox(ex.Message)
         End Try
-
+        Me.Hide()
+        frmLogin.Show()
     End Sub
 
     Private Sub frmForgotPassword_Load(sender As Object, e As EventArgs) Handles MyBase.Load

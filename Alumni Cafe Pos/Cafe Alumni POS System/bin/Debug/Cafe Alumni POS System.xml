@@ -22,6 +22,16 @@ Cafe Alumni POS System
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:Cafe_Alumni_POS_System.My.Resources.Resources.calculator">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cafe_Alumni_POS_System.My.Resources.Resources.cute_anime_girl_caty_hairs_5h_1280x720">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Cafe_Alumni_POS_System.My.Resources.Resources.database">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -33,6 +43,11 @@ Cafe Alumni POS System
 </summary>
 </member>
 <member name="P:Cafe_Alumni_POS_System.My.Resources.Resources.income">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cafe_Alumni_POS_System.My.Resources.Resources.info">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -58,6 +73,11 @@ Cafe Alumni POS System
 </summary>
 </member>
 <member name="P:Cafe_Alumni_POS_System.My.Resources.Resources.no_pictures">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cafe_Alumni_POS_System.My.Resources.Resources.notes">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

@@ -1,6 +1,5 @@
 ﻿Imports System.Net
 Imports System.Net.Mail
-
 Public Class frmVerification
     Dim randomCode As String
     Dim toUser As String

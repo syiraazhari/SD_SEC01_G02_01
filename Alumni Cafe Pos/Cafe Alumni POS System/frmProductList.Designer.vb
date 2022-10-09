@@ -80,7 +80,7 @@ Partial Class frmProductList
         Me.LabelCategory.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.LabelCategory.Location = New System.Drawing.Point(12, 14)
         Me.LabelCategory.Name = "LabelCategory"
-        Me.LabelCategory.Size = New System.Drawing.Size(217, 32)
+        Me.LabelCategory.Size = New System.Drawing.Size(172, 26)
         Me.LabelCategory.TabIndex = 3
         Me.LabelCategory.Text = "Product Details"
         Me.LabelCategory.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -92,21 +92,21 @@ Partial Class frmProductList
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(0, 54)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(566, 45)
+        Me.Panel1.Size = New System.Drawing.Size(566, 61)
         Me.Panel1.TabIndex = 5
         '
         'txtSearch
         '
         Me.txtSearch.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtSearch.Location = New System.Drawing.Point(62, 8)
+        Me.txtSearch.Location = New System.Drawing.Point(61, 16)
         Me.txtSearch.Name = "txtSearch"
-        Me.txtSearch.Size = New System.Drawing.Size(197, 34)
+        Me.txtSearch.Size = New System.Drawing.Size(197, 29)
         Me.txtSearch.TabIndex = 1
         '
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.Cafe_Alumni_POS_System.My.Resources.Resources.plus
-        Me.PictureBox1.Location = New System.Drawing.Point(12, 3)
+        Me.PictureBox1.Location = New System.Drawing.Point(11, 11)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(43, 36)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -124,7 +124,7 @@ Partial Class frmProductList
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         DataGridViewCellStyle2.ForeColor = System.Drawing.Color.White
         DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
         DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
@@ -178,7 +178,7 @@ Partial Class frmProductList
         Me.Column1.MinimumWidth = 6
         Me.Column1.Name = "Column1"
         Me.Column1.ReadOnly = True
-        Me.Column1.Width = 43
+        Me.Column1.Width = 39
         '
         'Column2
         '
@@ -187,7 +187,7 @@ Partial Class frmProductList
         Me.Column2.MinimumWidth = 6
         Me.Column2.Name = "Column2"
         Me.Column2.ReadOnly = True
-        Me.Column2.Width = 59
+        Me.Column2.Width = 55
         '
         'Column3
         '
@@ -204,7 +204,7 @@ Partial Class frmProductList
         Me.Column4.MinimumWidth = 6
         Me.Column4.Name = "Column4"
         Me.Column4.ReadOnly = True
-        Me.Column4.Width = 95
+        Me.Column4.Width = 91
         '
         'Column5
         '
@@ -213,7 +213,7 @@ Partial Class frmProductList
         Me.Column5.MinimumWidth = 6
         Me.Column5.Name = "Column5"
         Me.Column5.ReadOnly = True
-        Me.Column5.Width = 105
+        Me.Column5.Width = 101
         '
         'Column6
         '
@@ -222,7 +222,7 @@ Partial Class frmProductList
         Me.Column6.MinimumWidth = 6
         Me.Column6.Name = "Column6"
         Me.Column6.ReadOnly = True
-        Me.Column6.Width = 97
+        Me.Column6.Width = 93
         '
         'ColEdit
         '
@@ -254,7 +254,6 @@ Partial Class frmProductList
         Me.DataGridViewImageColumn1.MinimumWidth = 6
         Me.DataGridViewImageColumn1.Name = "DataGridViewImageColumn1"
         Me.DataGridViewImageColumn1.ReadOnly = True
-        Me.DataGridViewImageColumn1.Width = 125
         '
         'DataGridViewImageColumn2
         '
@@ -264,11 +263,10 @@ Partial Class frmProductList
         Me.DataGridViewImageColumn2.MinimumWidth = 6
         Me.DataGridViewImageColumn2.Name = "DataGridViewImageColumn2"
         Me.DataGridViewImageColumn2.ReadOnly = True
-        Me.DataGridViewImageColumn2.Width = 125
         '
         'frmProductList
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 18.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Gray
         Me.ClientSize = New System.Drawing.Size(566, 519)

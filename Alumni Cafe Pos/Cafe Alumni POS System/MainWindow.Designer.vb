@@ -29,22 +29,28 @@ Partial Class MainWindow
         Me.Button8 = New System.Windows.Forms.Button()
         Me.Button7 = New System.Windows.Forms.Button()
         Me.Button6 = New System.Windows.Forms.Button()
+        Me.btnStock = New System.Windows.Forms.Button()
         Me.pnlTools = New System.Windows.Forms.Panel()
+        Me.Button11 = New System.Windows.Forms.Button()
         Me.notepadButton = New System.Windows.Forms.Button()
+        Me.btnTools = New System.Windows.Forms.Button()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.pnlReport = New System.Windows.Forms.Panel()
         Me.purchaseReportButton = New System.Windows.Forms.Button()
         Me.salesReportButton = New System.Windows.Forms.Button()
+        Me.btnReport = New System.Windows.Forms.Button()
         Me.pnlTransaction = New System.Windows.Forms.Panel()
+        Me.Button10 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
+        Me.btnTransaction = New System.Windows.Forms.Button()
         Me.pnlMaster = New System.Windows.Forms.Panel()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.btnMaster = New System.Windows.Forms.Button()
         Me.Panel3 = New System.Windows.Forms.Panel()
-        Me.Label5 = New System.Windows.Forms.Label()
         Me.usertypeLabel = New System.Windows.Forms.Label()
         Me.userLabel = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -54,6 +60,12 @@ Partial Class MainWindow
         Me.dateLabel = New System.Windows.Forms.Label()
         Me.btnClose = New System.Windows.Forms.Button()
         Me.Panel5 = New System.Windows.Forms.Panel()
+        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
+        Me.picUser = New System.Windows.Forms.PictureBox()
+        Me.picStaffUser = New System.Windows.Forms.PictureBox()
+        Me.picSetting = New System.Windows.Forms.PictureBox()
+        Me.picPassword = New System.Windows.Forms.PictureBox()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Panel6 = New System.Windows.Forms.Panel()
         Me.Button9 = New System.Windows.Forms.Button()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -61,25 +73,12 @@ Partial Class MainWindow
         Me.Panel7 = New System.Windows.Forms.Panel()
         Me.Panel9 = New System.Windows.Forms.Panel()
         Me.Label8 = New System.Windows.Forms.Label()
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.lblIncome = New System.Windows.Forms.Label()
         Me.Panel8 = New System.Windows.Forms.Panel()
         Me.Label7 = New System.Windows.Forms.Label()
-        Me.lblProfit = New System.Windows.Forms.Label()
-        Me.Button10 = New System.Windows.Forms.Button()
-        Me.Button11 = New System.Windows.Forms.Button()
-        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.picUser = New System.Windows.Forms.PictureBox()
-        Me.picStaffUser = New System.Windows.Forms.PictureBox()
-        Me.picSetting = New System.Windows.Forms.PictureBox()
-        Me.picPassword = New System.Windows.Forms.PictureBox()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.btnStock = New System.Windows.Forms.Button()
-        Me.btnTools = New System.Windows.Forms.Button()
-        Me.btnReport = New System.Windows.Forms.Button()
-        Me.btnTransaction = New System.Windows.Forms.Button()
-        Me.btnMaster = New System.Windows.Forms.Button()
-        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
+        Me.lblProfit = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         Me.pnlStock.SuspendLayout()
         Me.pnlTools.SuspendLayout()
@@ -90,22 +89,23 @@ Partial Class MainWindow
         Me.Panel3.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.Panel5.SuspendLayout()
-        Me.Panel6.SuspendLayout()
-        Me.Panel7.SuspendLayout()
-        Me.Panel9.SuspendLayout()
-        Me.Panel8.SuspendLayout()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picUser, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picStaffUser, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picSetting, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picPassword, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel6.SuspendLayout()
+        Me.Panel7.SuspendLayout()
+        Me.Panel9.SuspendLayout()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel8.SuspendLayout()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Panel1
         '
+        Me.Panel1.AutoScroll = True
         Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(44, Byte), Integer), CType(CType(62, Byte), Integer), CType(CType(80, Byte), Integer))
         Me.Panel1.Controls.Add(Me.pnlStock)
         Me.Panel1.Controls.Add(Me.btnStock)
@@ -190,6 +190,23 @@ Partial Class MainWindow
         Me.Button6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.Button6.UseVisualStyleBackColor = False
         '
+        'btnStock
+        '
+        Me.btnStock.BackColor = System.Drawing.Color.FromArgb(CType(CType(52, Byte), Integer), CType(CType(73, Byte), Integer), CType(CType(94, Byte), Integer))
+        Me.btnStock.Dock = System.Windows.Forms.DockStyle.Top
+        Me.btnStock.FlatAppearance.BorderSize = 0
+        Me.btnStock.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnStock.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnStock.ForeColor = System.Drawing.Color.FromArgb(CType(CType(149, Byte), Integer), CType(CType(165, Byte), Integer), CType(CType(166, Byte), Integer))
+        Me.btnStock.Image = Global.Cafe_Alumni_POS_System.My.Resources.Resources.packages
+        Me.btnStock.Location = New System.Drawing.Point(0, 400)
+        Me.btnStock.Name = "btnStock"
+        Me.btnStock.Size = New System.Drawing.Size(300, 56)
+        Me.btnStock.TabIndex = 10
+        Me.btnStock.Text = "Stock"
+        Me.btnStock.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.btnStock.UseVisualStyleBackColor = False
+        '
         'pnlTools
         '
         Me.pnlTools.Controls.Add(Me.Button11)
@@ -199,6 +216,25 @@ Partial Class MainWindow
         Me.pnlTools.Name = "pnlTools"
         Me.pnlTools.Size = New System.Drawing.Size(300, 10)
         Me.pnlTools.TabIndex = 9
+        '
+        'Button11
+        '
+        Me.Button11.BackColor = System.Drawing.Color.FromArgb(CType(CType(44, Byte), Integer), CType(CType(62, Byte), Integer), CType(CType(80, Byte), Integer))
+        Me.Button11.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Button11.FlatAppearance.BorderSize = 0
+        Me.Button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button11.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button11.ForeColor = System.Drawing.Color.FromArgb(CType(CType(149, Byte), Integer), CType(CType(165, Byte), Integer), CType(CType(166, Byte), Integer))
+        Me.Button11.Image = CType(resources.GetObject("Button11.Image"), System.Drawing.Image)
+        Me.Button11.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Button11.Location = New System.Drawing.Point(0, 56)
+        Me.Button11.Name = "Button11"
+        Me.Button11.Size = New System.Drawing.Size(300, 56)
+        Me.Button11.TabIndex = 5
+        Me.Button11.Text = "Calculator"
+        Me.Button11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Button11.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.Button11.UseVisualStyleBackColor = False
         '
         'notepadButton
         '
@@ -219,6 +255,23 @@ Partial Class MainWindow
         Me.notepadButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.notepadButton.UseVisualStyleBackColor = False
         '
+        'btnTools
+        '
+        Me.btnTools.BackColor = System.Drawing.Color.FromArgb(CType(CType(52, Byte), Integer), CType(CType(73, Byte), Integer), CType(CType(94, Byte), Integer))
+        Me.btnTools.Dock = System.Windows.Forms.DockStyle.Top
+        Me.btnTools.FlatAppearance.BorderSize = 0
+        Me.btnTools.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnTools.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnTools.ForeColor = System.Drawing.Color.FromArgb(CType(CType(149, Byte), Integer), CType(CType(165, Byte), Integer), CType(CType(166, Byte), Integer))
+        Me.btnTools.Image = CType(resources.GetObject("btnTools.Image"), System.Drawing.Image)
+        Me.btnTools.Location = New System.Drawing.Point(0, 334)
+        Me.btnTools.Name = "btnTools"
+        Me.btnTools.Size = New System.Drawing.Size(300, 56)
+        Me.btnTools.TabIndex = 8
+        Me.btnTools.Text = "Tools"
+        Me.btnTools.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.btnTools.UseVisualStyleBackColor = False
+        '
         'Label4
         '
         Me.Label4.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
@@ -227,7 +280,7 @@ Partial Class MainWindow
         Me.Label4.ForeColor = System.Drawing.Color.White
         Me.Label4.Location = New System.Drawing.Point(82, 720)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(121, 20)
+        Me.Label4.Size = New System.Drawing.Size(149, 25)
         Me.Label4.TabIndex = 7
         Me.Label4.Text = "VERSION 1.0.0"
         '
@@ -277,6 +330,23 @@ Partial Class MainWindow
         Me.salesReportButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.salesReportButton.UseVisualStyleBackColor = False
         '
+        'btnReport
+        '
+        Me.btnReport.BackColor = System.Drawing.Color.FromArgb(CType(CType(52, Byte), Integer), CType(CType(73, Byte), Integer), CType(CType(94, Byte), Integer))
+        Me.btnReport.Dock = System.Windows.Forms.DockStyle.Top
+        Me.btnReport.FlatAppearance.BorderSize = 0
+        Me.btnReport.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnReport.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnReport.ForeColor = System.Drawing.Color.FromArgb(CType(CType(149, Byte), Integer), CType(CType(165, Byte), Integer), CType(CType(166, Byte), Integer))
+        Me.btnReport.Image = Global.Cafe_Alumni_POS_System.My.Resources.Resources.report
+        Me.btnReport.Location = New System.Drawing.Point(0, 268)
+        Me.btnReport.Name = "btnReport"
+        Me.btnReport.Size = New System.Drawing.Size(300, 56)
+        Me.btnReport.TabIndex = 5
+        Me.btnReport.Text = "Report"
+        Me.btnReport.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.btnReport.UseVisualStyleBackColor = False
+        '
         'pnlTransaction
         '
         Me.pnlTransaction.Controls.Add(Me.Button10)
@@ -287,6 +357,24 @@ Partial Class MainWindow
         Me.pnlTransaction.Name = "pnlTransaction"
         Me.pnlTransaction.Size = New System.Drawing.Size(300, 10)
         Me.pnlTransaction.TabIndex = 4
+        '
+        'Button10
+        '
+        Me.Button10.BackColor = System.Drawing.Color.FromArgb(CType(CType(44, Byte), Integer), CType(CType(62, Byte), Integer), CType(CType(80, Byte), Integer))
+        Me.Button10.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Button10.FlatAppearance.BorderSize = 0
+        Me.Button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button10.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button10.ForeColor = System.Drawing.Color.FromArgb(CType(CType(149, Byte), Integer), CType(CType(165, Byte), Integer), CType(CType(166, Byte), Integer))
+        Me.Button10.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Button10.Location = New System.Drawing.Point(0, 108)
+        Me.Button10.Name = "Button10"
+        Me.Button10.Size = New System.Drawing.Size(300, 54)
+        Me.Button10.TabIndex = 4
+        Me.Button10.Text = "Payment History"
+        Me.Button10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Button10.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.Button10.UseVisualStyleBackColor = False
         '
         'Button1
         '
@@ -323,6 +411,23 @@ Partial Class MainWindow
         Me.Button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.Button5.UseVisualStyleBackColor = False
+        '
+        'btnTransaction
+        '
+        Me.btnTransaction.BackColor = System.Drawing.Color.FromArgb(CType(CType(52, Byte), Integer), CType(CType(73, Byte), Integer), CType(CType(94, Byte), Integer))
+        Me.btnTransaction.Dock = System.Windows.Forms.DockStyle.Top
+        Me.btnTransaction.FlatAppearance.BorderSize = 0
+        Me.btnTransaction.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnTransaction.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnTransaction.ForeColor = System.Drawing.Color.FromArgb(CType(CType(149, Byte), Integer), CType(CType(165, Byte), Integer), CType(CType(166, Byte), Integer))
+        Me.btnTransaction.Image = Global.Cafe_Alumni_POS_System.My.Resources.Resources.transaction
+        Me.btnTransaction.Location = New System.Drawing.Point(0, 202)
+        Me.btnTransaction.Name = "btnTransaction"
+        Me.btnTransaction.Size = New System.Drawing.Size(300, 56)
+        Me.btnTransaction.TabIndex = 3
+        Me.btnTransaction.Text = "Transaction"
+        Me.btnTransaction.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.btnTransaction.UseVisualStyleBackColor = False
         '
         'pnlMaster
         '
@@ -398,9 +503,25 @@ Partial Class MainWindow
         Me.Panel4.Size = New System.Drawing.Size(300, 56)
         Me.Panel4.TabIndex = 1
         '
+        'btnMaster
+        '
+        Me.btnMaster.BackColor = System.Drawing.Color.FromArgb(CType(CType(52, Byte), Integer), CType(CType(73, Byte), Integer), CType(CType(94, Byte), Integer))
+        Me.btnMaster.Dock = System.Windows.Forms.DockStyle.Top
+        Me.btnMaster.FlatAppearance.BorderSize = 0
+        Me.btnMaster.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnMaster.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnMaster.ForeColor = System.Drawing.Color.FromArgb(CType(CType(149, Byte), Integer), CType(CType(165, Byte), Integer), CType(CType(166, Byte), Integer))
+        Me.btnMaster.Image = Global.Cafe_Alumni_POS_System.My.Resources.Resources.database
+        Me.btnMaster.Location = New System.Drawing.Point(0, 0)
+        Me.btnMaster.Name = "btnMaster"
+        Me.btnMaster.Size = New System.Drawing.Size(300, 56)
+        Me.btnMaster.TabIndex = 0
+        Me.btnMaster.Text = "Master"
+        Me.btnMaster.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.btnMaster.UseVisualStyleBackColor = False
+        '
         'Panel3
         '
-        Me.Panel3.Controls.Add(Me.Label5)
         Me.Panel3.Controls.Add(Me.usertypeLabel)
         Me.Panel3.Controls.Add(Me.userLabel)
         Me.Panel3.Controls.Add(Me.Label2)
@@ -411,25 +532,14 @@ Partial Class MainWindow
         Me.Panel3.Size = New System.Drawing.Size(300, 136)
         Me.Panel3.TabIndex = 0
         '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.ForeColor = System.Drawing.Color.White
-        Me.Label5.Location = New System.Drawing.Point(65, 106)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(71, 20)
-        Me.Label5.TabIndex = 12
-        Me.Label5.Text = "Login As"
-        '
         'usertypeLabel
         '
         Me.usertypeLabel.AutoSize = True
         Me.usertypeLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.usertypeLabel.ForeColor = System.Drawing.Color.White
-        Me.usertypeLabel.Location = New System.Drawing.Point(140, 107)
+        Me.usertypeLabel.Location = New System.Drawing.Point(178, 98)
         Me.usertypeLabel.Name = "usertypeLabel"
-        Me.usertypeLabel.Size = New System.Drawing.Size(55, 20)
+        Me.usertypeLabel.Size = New System.Drawing.Size(66, 25)
         Me.usertypeLabel.TabIndex = 11
         Me.usertypeLabel.Text = "USER"
         '
@@ -438,9 +548,9 @@ Partial Class MainWindow
         Me.userLabel.AutoSize = True
         Me.userLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.userLabel.ForeColor = System.Drawing.Color.White
-        Me.userLabel.Location = New System.Drawing.Point(140, 78)
+        Me.userLabel.Location = New System.Drawing.Point(81, 98)
         Me.userLabel.Name = "userLabel"
-        Me.userLabel.Size = New System.Drawing.Size(43, 20)
+        Me.userLabel.Size = New System.Drawing.Size(53, 25)
         Me.userLabel.TabIndex = 2
         Me.userLabel.Text = "User"
         '
@@ -449,9 +559,9 @@ Partial Class MainWindow
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.White
-        Me.Label2.Location = New System.Drawing.Point(65, 78)
+        Me.Label2.Location = New System.Drawing.Point(6, 98)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(75, 20)
+        Me.Label2.Size = New System.Drawing.Size(95, 25)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Welcome"
         '
@@ -462,7 +572,7 @@ Partial Class MainWindow
         Me.Label1.ForeColor = System.Drawing.Color.Cyan
         Me.Label1.Location = New System.Drawing.Point(12, 28)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(268, 26)
+        Me.Label1.Size = New System.Drawing.Size(337, 32)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Alumni Cafe POS System"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -488,7 +598,7 @@ Partial Class MainWindow
         Me.timeLabel.ForeColor = System.Drawing.Color.Cyan
         Me.timeLabel.Location = New System.Drawing.Point(552, 14)
         Me.timeLabel.Name = "timeLabel"
-        Me.timeLabel.Size = New System.Drawing.Size(58, 26)
+        Me.timeLabel.Size = New System.Drawing.Size(73, 32)
         Me.timeLabel.TabIndex = 4
         Me.timeLabel.Text = "Time"
         Me.timeLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -502,7 +612,7 @@ Partial Class MainWindow
         Me.dateLabel.ForeColor = System.Drawing.Color.Cyan
         Me.dateLabel.Location = New System.Drawing.Point(426, 14)
         Me.dateLabel.Name = "dateLabel"
-        Me.dateLabel.Size = New System.Drawing.Size(59, 26)
+        Me.dateLabel.Size = New System.Drawing.Size(75, 32)
         Me.dateLabel.TabIndex = 3
         Me.dateLabel.Text = "Date"
         Me.dateLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -536,169 +646,16 @@ Partial Class MainWindow
         Me.Panel5.Size = New System.Drawing.Size(771, 44)
         Me.Panel5.TabIndex = 2
         '
-        'Panel6
+        'PictureBox4
         '
-        Me.Panel6.BackColor = System.Drawing.Color.Gray
-        Me.Panel6.Controls.Add(Me.Button9)
-        Me.Panel6.Controls.Add(Me.Label3)
-        Me.Panel6.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel6.Location = New System.Drawing.Point(300, 98)
-        Me.Panel6.Name = "Panel6"
-        Me.Panel6.Size = New System.Drawing.Size(771, 44)
-        Me.Panel6.TabIndex = 3
-        '
-        'Button9
-        '
-        Me.Button9.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button9.Location = New System.Drawing.Point(122, 7)
-        Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(75, 30)
-        Me.Button9.TabIndex = 4
-        Me.Button9.Text = "Refresh"
-        Me.Button9.UseVisualStyleBackColor = False
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.ForeColor = System.Drawing.Color.White
-        Me.Label3.Location = New System.Drawing.Point(9, 9)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(88, 20)
-        Me.Label3.TabIndex = 3
-        Me.Label3.Text = "Dashboard"
-        '
-        'Timer1
-        '
-        Me.Timer1.Enabled = True
-        '
-        'Panel7
-        '
-        Me.Panel7.Controls.Add(Me.Panel9)
-        Me.Panel7.Controls.Add(Me.Panel8)
-        Me.Panel7.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel7.Location = New System.Drawing.Point(300, 142)
-        Me.Panel7.Name = "Panel7"
-        Me.Panel7.Size = New System.Drawing.Size(771, 224)
-        Me.Panel7.TabIndex = 4
-        '
-        'Panel9
-        '
-        Me.Panel9.Controls.Add(Me.Label8)
-        Me.Panel9.Controls.Add(Me.PictureBox3)
-        Me.Panel9.Controls.Add(Me.lblIncome)
-        Me.Panel9.Location = New System.Drawing.Point(347, 12)
-        Me.Panel9.Name = "Panel9"
-        Me.Panel9.Size = New System.Drawing.Size(311, 189)
-        Me.Panel9.TabIndex = 3
-        '
-        'Label8
-        '
-        Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(177, 152)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(102, 18)
-        Me.Label8.TabIndex = 2
-        Me.Label8.Text = "Today Income"
-        '
-        'lblIncome
-        '
-        Me.lblIncome.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblIncome.Location = New System.Drawing.Point(3, 0)
-        Me.lblIncome.Name = "lblIncome"
-        Me.lblIncome.Size = New System.Drawing.Size(305, 71)
-        Me.lblIncome.TabIndex = 0
-        Me.lblIncome.Text = "0.00"
-        Me.lblIncome.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        '
-        'Panel8
-        '
-        Me.Panel8.Controls.Add(Me.Label7)
-        Me.Panel8.Controls.Add(Me.PictureBox2)
-        Me.Panel8.Controls.Add(Me.lblProfit)
-        Me.Panel8.Location = New System.Drawing.Point(14, 12)
-        Me.Panel8.Name = "Panel8"
-        Me.Panel8.Size = New System.Drawing.Size(304, 189)
-        Me.Panel8.TabIndex = 0
-        '
-        'Label7
-        '
-        Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(177, 152)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(88, 18)
-        Me.Label7.TabIndex = 2
-        Me.Label7.Text = "Today Profit"
-        '
-        'lblProfit
-        '
-        Me.lblProfit.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblProfit.Location = New System.Drawing.Point(3, 0)
-        Me.lblProfit.Name = "lblProfit"
-        Me.lblProfit.Size = New System.Drawing.Size(298, 71)
-        Me.lblProfit.TabIndex = 0
-        Me.lblProfit.Text = "0.00"
-        Me.lblProfit.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        '
-        'Button10
-        '
-        Me.Button10.BackColor = System.Drawing.Color.FromArgb(CType(CType(44, Byte), Integer), CType(CType(62, Byte), Integer), CType(CType(80, Byte), Integer))
-        Me.Button10.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Button10.FlatAppearance.BorderSize = 0
-        Me.Button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button10.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button10.ForeColor = System.Drawing.Color.FromArgb(CType(CType(149, Byte), Integer), CType(CType(165, Byte), Integer), CType(CType(166, Byte), Integer))
-        Me.Button10.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button10.Location = New System.Drawing.Point(0, 108)
-        Me.Button10.Name = "Button10"
-        Me.Button10.Size = New System.Drawing.Size(300, 54)
-        Me.Button10.TabIndex = 4
-        Me.Button10.Text = "Payment History"
-        Me.Button10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button10.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
-        Me.Button10.UseVisualStyleBackColor = False
-        '
-        'Button11
-        '
-        Me.Button11.BackColor = System.Drawing.Color.FromArgb(CType(CType(44, Byte), Integer), CType(CType(62, Byte), Integer), CType(CType(80, Byte), Integer))
-        Me.Button11.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Button11.FlatAppearance.BorderSize = 0
-        Me.Button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button11.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button11.ForeColor = System.Drawing.Color.FromArgb(CType(CType(149, Byte), Integer), CType(CType(165, Byte), Integer), CType(CType(166, Byte), Integer))
-        Me.Button11.Image = CType(resources.GetObject("Button11.Image"), System.Drawing.Image)
-        Me.Button11.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button11.Location = New System.Drawing.Point(0, 56)
-        Me.Button11.Name = "Button11"
-        Me.Button11.Size = New System.Drawing.Size(300, 56)
-        Me.Button11.TabIndex = 5
-        Me.Button11.Text = "Calculator"
-        Me.Button11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button11.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
-        Me.Button11.UseVisualStyleBackColor = False
-        '
-        'PictureBox3
-        '
-        Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
-        Me.PictureBox3.Location = New System.Drawing.Point(8, 54)
-        Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(175, 132)
-        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox3.TabIndex = 1
-        Me.PictureBox3.TabStop = False
-        '
-        'PictureBox2
-        '
-        Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(8, 54)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(175, 132)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox2.TabIndex = 1
-        Me.PictureBox2.TabStop = False
+        Me.PictureBox4.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), System.Drawing.Image)
+        Me.PictureBox4.Location = New System.Drawing.Point(499, 3)
+        Me.PictureBox4.Name = "PictureBox4"
+        Me.PictureBox4.Size = New System.Drawing.Size(49, 41)
+        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox4.TabIndex = 5
+        Me.PictureBox4.TabStop = False
         '
         'picUser
         '
@@ -757,101 +714,132 @@ Partial Class MainWindow
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
         '
-        'btnStock
+        'Panel6
         '
-        Me.btnStock.BackColor = System.Drawing.Color.FromArgb(CType(CType(52, Byte), Integer), CType(CType(73, Byte), Integer), CType(CType(94, Byte), Integer))
-        Me.btnStock.Dock = System.Windows.Forms.DockStyle.Top
-        Me.btnStock.FlatAppearance.BorderSize = 0
-        Me.btnStock.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnStock.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnStock.ForeColor = System.Drawing.Color.FromArgb(CType(CType(149, Byte), Integer), CType(CType(165, Byte), Integer), CType(CType(166, Byte), Integer))
-        Me.btnStock.Image = Global.Cafe_Alumni_POS_System.My.Resources.Resources.packages
-        Me.btnStock.Location = New System.Drawing.Point(0, 400)
-        Me.btnStock.Name = "btnStock"
-        Me.btnStock.Size = New System.Drawing.Size(300, 56)
-        Me.btnStock.TabIndex = 10
-        Me.btnStock.Text = "Stock"
-        Me.btnStock.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
-        Me.btnStock.UseVisualStyleBackColor = False
+        Me.Panel6.BackColor = System.Drawing.Color.Gray
+        Me.Panel6.Controls.Add(Me.Button9)
+        Me.Panel6.Controls.Add(Me.Label3)
+        Me.Panel6.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel6.Location = New System.Drawing.Point(300, 98)
+        Me.Panel6.Name = "Panel6"
+        Me.Panel6.Size = New System.Drawing.Size(771, 44)
+        Me.Panel6.TabIndex = 3
         '
-        'btnTools
+        'Button9
         '
-        Me.btnTools.BackColor = System.Drawing.Color.FromArgb(CType(CType(52, Byte), Integer), CType(CType(73, Byte), Integer), CType(CType(94, Byte), Integer))
-        Me.btnTools.Dock = System.Windows.Forms.DockStyle.Top
-        Me.btnTools.FlatAppearance.BorderSize = 0
-        Me.btnTools.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnTools.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnTools.ForeColor = System.Drawing.Color.FromArgb(CType(CType(149, Byte), Integer), CType(CType(165, Byte), Integer), CType(CType(166, Byte), Integer))
-        Me.btnTools.Image = CType(resources.GetObject("btnTools.Image"), System.Drawing.Image)
-        Me.btnTools.Location = New System.Drawing.Point(0, 334)
-        Me.btnTools.Name = "btnTools"
-        Me.btnTools.Size = New System.Drawing.Size(300, 56)
-        Me.btnTools.TabIndex = 8
-        Me.btnTools.Text = "Tools"
-        Me.btnTools.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
-        Me.btnTools.UseVisualStyleBackColor = False
+        Me.Button9.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button9.Location = New System.Drawing.Point(122, 7)
+        Me.Button9.Name = "Button9"
+        Me.Button9.Size = New System.Drawing.Size(75, 30)
+        Me.Button9.TabIndex = 4
+        Me.Button9.Text = "Refresh"
+        Me.Button9.UseVisualStyleBackColor = False
         '
-        'btnReport
+        'Label3
         '
-        Me.btnReport.BackColor = System.Drawing.Color.FromArgb(CType(CType(52, Byte), Integer), CType(CType(73, Byte), Integer), CType(CType(94, Byte), Integer))
-        Me.btnReport.Dock = System.Windows.Forms.DockStyle.Top
-        Me.btnReport.FlatAppearance.BorderSize = 0
-        Me.btnReport.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnReport.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnReport.ForeColor = System.Drawing.Color.FromArgb(CType(CType(149, Byte), Integer), CType(CType(165, Byte), Integer), CType(CType(166, Byte), Integer))
-        Me.btnReport.Image = Global.Cafe_Alumni_POS_System.My.Resources.Resources.report
-        Me.btnReport.Location = New System.Drawing.Point(0, 268)
-        Me.btnReport.Name = "btnReport"
-        Me.btnReport.Size = New System.Drawing.Size(300, 56)
-        Me.btnReport.TabIndex = 5
-        Me.btnReport.Text = "Report"
-        Me.btnReport.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
-        Me.btnReport.UseVisualStyleBackColor = False
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.White
+        Me.Label3.Location = New System.Drawing.Point(9, 9)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(108, 25)
+        Me.Label3.TabIndex = 3
+        Me.Label3.Text = "Dashboard"
         '
-        'btnTransaction
+        'Timer1
         '
-        Me.btnTransaction.BackColor = System.Drawing.Color.FromArgb(CType(CType(52, Byte), Integer), CType(CType(73, Byte), Integer), CType(CType(94, Byte), Integer))
-        Me.btnTransaction.Dock = System.Windows.Forms.DockStyle.Top
-        Me.btnTransaction.FlatAppearance.BorderSize = 0
-        Me.btnTransaction.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnTransaction.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnTransaction.ForeColor = System.Drawing.Color.FromArgb(CType(CType(149, Byte), Integer), CType(CType(165, Byte), Integer), CType(CType(166, Byte), Integer))
-        Me.btnTransaction.Image = Global.Cafe_Alumni_POS_System.My.Resources.Resources.transaction
-        Me.btnTransaction.Location = New System.Drawing.Point(0, 202)
-        Me.btnTransaction.Name = "btnTransaction"
-        Me.btnTransaction.Size = New System.Drawing.Size(300, 56)
-        Me.btnTransaction.TabIndex = 3
-        Me.btnTransaction.Text = "Transaction"
-        Me.btnTransaction.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
-        Me.btnTransaction.UseVisualStyleBackColor = False
+        Me.Timer1.Enabled = True
         '
-        'btnMaster
+        'Panel7
         '
-        Me.btnMaster.BackColor = System.Drawing.Color.FromArgb(CType(CType(52, Byte), Integer), CType(CType(73, Byte), Integer), CType(CType(94, Byte), Integer))
-        Me.btnMaster.Dock = System.Windows.Forms.DockStyle.Top
-        Me.btnMaster.FlatAppearance.BorderSize = 0
-        Me.btnMaster.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnMaster.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnMaster.ForeColor = System.Drawing.Color.FromArgb(CType(CType(149, Byte), Integer), CType(CType(165, Byte), Integer), CType(CType(166, Byte), Integer))
-        Me.btnMaster.Image = Global.Cafe_Alumni_POS_System.My.Resources.Resources.database
-        Me.btnMaster.Location = New System.Drawing.Point(0, 0)
-        Me.btnMaster.Name = "btnMaster"
-        Me.btnMaster.Size = New System.Drawing.Size(300, 56)
-        Me.btnMaster.TabIndex = 0
-        Me.btnMaster.Text = "Master"
-        Me.btnMaster.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
-        Me.btnMaster.UseVisualStyleBackColor = False
+        Me.Panel7.Controls.Add(Me.Panel9)
+        Me.Panel7.Controls.Add(Me.Panel8)
+        Me.Panel7.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel7.Location = New System.Drawing.Point(300, 142)
+        Me.Panel7.Name = "Panel7"
+        Me.Panel7.Size = New System.Drawing.Size(771, 224)
+        Me.Panel7.TabIndex = 4
         '
-        'PictureBox4
+        'Panel9
         '
-        Me.PictureBox4.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), System.Drawing.Image)
-        Me.PictureBox4.Location = New System.Drawing.Point(499, 3)
-        Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(49, 41)
-        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox4.TabIndex = 5
-        Me.PictureBox4.TabStop = False
+        Me.Panel9.Controls.Add(Me.Label8)
+        Me.Panel9.Controls.Add(Me.PictureBox3)
+        Me.Panel9.Controls.Add(Me.lblIncome)
+        Me.Panel9.Location = New System.Drawing.Point(347, 12)
+        Me.Panel9.Name = "Panel9"
+        Me.Panel9.Size = New System.Drawing.Size(311, 189)
+        Me.Panel9.TabIndex = 3
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(177, 152)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(131, 24)
+        Me.Label8.TabIndex = 2
+        Me.Label8.Text = "Today Income"
+        '
+        'PictureBox3
+        '
+        Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
+        Me.PictureBox3.Location = New System.Drawing.Point(8, 54)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(175, 132)
+        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox3.TabIndex = 1
+        Me.PictureBox3.TabStop = False
+        '
+        'lblIncome
+        '
+        Me.lblIncome.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblIncome.Location = New System.Drawing.Point(3, 0)
+        Me.lblIncome.Name = "lblIncome"
+        Me.lblIncome.Size = New System.Drawing.Size(305, 71)
+        Me.lblIncome.TabIndex = 0
+        Me.lblIncome.Text = "0.00"
+        Me.lblIncome.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Panel8
+        '
+        Me.Panel8.Controls.Add(Me.Label7)
+        Me.Panel8.Controls.Add(Me.PictureBox2)
+        Me.Panel8.Controls.Add(Me.lblProfit)
+        Me.Panel8.Location = New System.Drawing.Point(14, 12)
+        Me.Panel8.Name = "Panel8"
+        Me.Panel8.Size = New System.Drawing.Size(304, 189)
+        Me.Panel8.TabIndex = 0
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(177, 152)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(109, 24)
+        Me.Label7.TabIndex = 2
+        Me.Label7.Text = "Today Profit"
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
+        Me.PictureBox2.Location = New System.Drawing.Point(8, 54)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(175, 132)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox2.TabIndex = 1
+        Me.PictureBox2.TabStop = False
+        '
+        'lblProfit
+        '
+        Me.lblProfit.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblProfit.Location = New System.Drawing.Point(3, 0)
+        Me.lblProfit.Name = "lblProfit"
+        Me.lblProfit.Size = New System.Drawing.Size(298, 71)
+        Me.lblProfit.TabIndex = 0
+        Me.lblProfit.Text = "0.00"
+        Me.lblProfit.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'MainWindow
         '
@@ -880,21 +868,21 @@ Partial Class MainWindow
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
         Me.Panel5.ResumeLayout(False)
-        Me.Panel6.ResumeLayout(False)
-        Me.Panel6.PerformLayout()
-        Me.Panel7.ResumeLayout(False)
-        Me.Panel9.ResumeLayout(False)
-        Me.Panel9.PerformLayout()
-        Me.Panel8.ResumeLayout(False)
-        Me.Panel8.PerformLayout()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.picUser, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.picStaffUser, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.picSetting, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.picPassword, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel6.ResumeLayout(False)
+        Me.Panel6.PerformLayout()
+        Me.Panel7.ResumeLayout(False)
+        Me.Panel9.ResumeLayout(False)
+        Me.Panel9.PerformLayout()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel8.ResumeLayout(False)
+        Me.Panel8.PerformLayout()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -933,7 +921,6 @@ Partial Class MainWindow
     Friend WithEvents pnlTools As Panel
     Friend WithEvents notepadButton As Button
     Friend WithEvents usertypeLabel As Label
-    Friend WithEvents Label5 As Label
     Friend WithEvents Button1 As Button
     Friend WithEvents pnlStock As Panel
     Friend WithEvents btnStock As Button

@@ -22,11 +22,13 @@ Partial Class frmStaffUserProfile
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.LabelCategory = New System.Windows.Forms.Label()
         Me.btnClose = New System.Windows.Forms.Button()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.btnClear = New System.Windows.Forms.Button()
         Me.btnUpdate = New System.Windows.Forms.Button()
         Me.cboStatus = New System.Windows.Forms.ComboBox()
@@ -43,7 +45,7 @@ Partial Class frmStaffUserProfile
         Me.Label2 = New System.Windows.Forms.Label()
         Me.lblUserID = New System.Windows.Forms.Label()
         Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Guna2DragControl1 = New Guna.UI2.WinForms.Guna2DragControl(Me.components)
         Me.Panel2.SuspendLayout()
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -67,7 +69,7 @@ Partial Class frmStaffUserProfile
         Me.LabelCategory.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.LabelCategory.Location = New System.Drawing.Point(12, 14)
         Me.LabelCategory.Name = "LabelCategory"
-        Me.LabelCategory.Size = New System.Drawing.Size(190, 26)
+        Me.LabelCategory.Size = New System.Drawing.Size(240, 32)
         Me.LabelCategory.TabIndex = 3
         Me.LabelCategory.Text = "Staff User Profile"
         Me.LabelCategory.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -117,10 +119,20 @@ Partial Class frmStaffUserProfile
         Me.LinkLabel1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LinkLabel1.Location = New System.Drawing.Point(513, 233)
         Me.LinkLabel1.Name = "LinkLabel1"
-        Me.LinkLabel1.Size = New System.Drawing.Size(111, 20)
+        Me.LinkLabel1.Size = New System.Drawing.Size(134, 25)
         Me.LinkLabel1.TabIndex = 16
         Me.LinkLabel1.TabStop = True
         Me.LinkLabel1.Text = "Update Image"
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.Cafe_Alumni_POS_System.My.Resources.Resources.no_pictures
+        Me.PictureBox1.Location = New System.Drawing.Point(457, 27)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(234, 203)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 15
+        Me.PictureBox1.TabStop = False
         '
         'btnClear
         '
@@ -151,7 +163,7 @@ Partial Class frmStaffUserProfile
         Me.cboStatus.Items.AddRange(New Object() {"Active", "Non-Active"})
         Me.cboStatus.Location = New System.Drawing.Point(160, 226)
         Me.cboStatus.Name = "cboStatus"
-        Me.cboStatus.Size = New System.Drawing.Size(252, 28)
+        Me.cboStatus.Size = New System.Drawing.Size(252, 33)
         Me.cboStatus.TabIndex = 12
         '
         'cboRole
@@ -161,7 +173,7 @@ Partial Class frmStaffUserProfile
         Me.cboRole.Items.AddRange(New Object() {"Administrator", "Staff"})
         Me.cboRole.Location = New System.Drawing.Point(160, 191)
         Me.cboRole.Name = "cboRole"
-        Me.cboRole.Size = New System.Drawing.Size(252, 28)
+        Me.cboRole.Size = New System.Drawing.Size(252, 33)
         Me.cboRole.TabIndex = 11
         '
         'txtEmail
@@ -169,7 +181,7 @@ Partial Class frmStaffUserProfile
         Me.txtEmail.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtEmail.Location = New System.Drawing.Point(160, 153)
         Me.txtEmail.Name = "txtEmail"
-        Me.txtEmail.Size = New System.Drawing.Size(252, 26)
+        Me.txtEmail.Size = New System.Drawing.Size(252, 30)
         Me.txtEmail.TabIndex = 10
         '
         'txtName
@@ -177,7 +189,7 @@ Partial Class frmStaffUserProfile
         Me.txtName.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtName.Location = New System.Drawing.Point(160, 112)
         Me.txtName.Name = "txtName"
-        Me.txtName.Size = New System.Drawing.Size(252, 26)
+        Me.txtName.Size = New System.Drawing.Size(252, 30)
         Me.txtName.TabIndex = 9
         '
         'txtPassword
@@ -185,7 +197,7 @@ Partial Class frmStaffUserProfile
         Me.txtPassword.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtPassword.Location = New System.Drawing.Point(160, 69)
         Me.txtPassword.Name = "txtPassword"
-        Me.txtPassword.Size = New System.Drawing.Size(252, 26)
+        Me.txtPassword.Size = New System.Drawing.Size(252, 30)
         Me.txtPassword.TabIndex = 8
         '
         'txtUsername
@@ -193,7 +205,7 @@ Partial Class frmStaffUserProfile
         Me.txtUsername.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtUsername.Location = New System.Drawing.Point(160, 27)
         Me.txtUsername.Name = "txtUsername"
-        Me.txtUsername.Size = New System.Drawing.Size(252, 26)
+        Me.txtUsername.Size = New System.Drawing.Size(252, 30)
         Me.txtUsername.TabIndex = 7
         '
         'Label7
@@ -202,7 +214,7 @@ Partial Class frmStaffUserProfile
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.Location = New System.Drawing.Point(45, 234)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(56, 20)
+        Me.Label7.Size = New System.Drawing.Size(68, 25)
         Me.Label7.TabIndex = 6
         Me.Label7.Text = "Status"
         '
@@ -212,7 +224,7 @@ Partial Class frmStaffUserProfile
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.Location = New System.Drawing.Point(45, 194)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(42, 20)
+        Me.Label6.Size = New System.Drawing.Size(51, 25)
         Me.Label6.TabIndex = 5
         Me.Label6.Text = "Role"
         '
@@ -222,7 +234,7 @@ Partial Class frmStaffUserProfile
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.Location = New System.Drawing.Point(45, 112)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(51, 20)
+        Me.Label5.Size = New System.Drawing.Size(64, 25)
         Me.Label5.TabIndex = 4
         Me.Label5.Text = "Name"
         '
@@ -232,7 +244,7 @@ Partial Class frmStaffUserProfile
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.Location = New System.Drawing.Point(45, 69)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(78, 20)
+        Me.Label4.Size = New System.Drawing.Size(98, 25)
         Me.Label4.TabIndex = 3
         Me.Label4.Text = "Password"
         '
@@ -242,7 +254,7 @@ Partial Class frmStaffUserProfile
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.Location = New System.Drawing.Point(45, 28)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(83, 20)
+        Me.Label3.Size = New System.Drawing.Size(102, 25)
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "Username"
         '
@@ -252,7 +264,7 @@ Partial Class frmStaffUserProfile
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(45, 153)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(48, 20)
+        Me.Label2.Size = New System.Drawing.Size(60, 25)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Email"
         '
@@ -262,7 +274,7 @@ Partial Class frmStaffUserProfile
         Me.lblUserID.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblUserID.Location = New System.Drawing.Point(3, 325)
         Me.lblUserID.Name = "lblUserID"
-        Me.lblUserID.Size = New System.Drawing.Size(60, 20)
+        Me.lblUserID.Size = New System.Drawing.Size(72, 25)
         Me.lblUserID.TabIndex = 0
         Me.lblUserID.Text = "UserID"
         Me.lblUserID.Visible = False
@@ -271,19 +283,15 @@ Partial Class frmStaffUserProfile
         '
         Me.OpenFileDialog1.FileName = "OpenFileDialog1"
         '
-        'PictureBox1
+        'Guna2DragControl1
         '
-        Me.PictureBox1.Image = Global.Cafe_Alumni_POS_System.My.Resources.Resources.no_pictures
-        Me.PictureBox1.Location = New System.Drawing.Point(457, 27)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(234, 203)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 15
-        Me.PictureBox1.TabStop = False
+        Me.Guna2DragControl1.DockIndicatorTransparencyValue = 0.6R
+        Me.Guna2DragControl1.TargetControl = Me.Panel2
+        Me.Guna2DragControl1.UseTransparentDrag = True
         '
         'frmStaffUserProfile
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 18.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(736, 408)
         Me.Controls.Add(Me.Panel1)
@@ -324,4 +332,5 @@ Partial Class frmStaffUserProfile
     Friend WithEvents LinkLabel1 As LinkLabel
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents OpenFileDialog1 As OpenFileDialog
+    Friend WithEvents Guna2DragControl1 As Guna.UI2.WinForms.Guna2DragControl
 End Class

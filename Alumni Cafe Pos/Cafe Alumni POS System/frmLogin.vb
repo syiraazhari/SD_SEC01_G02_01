@@ -79,6 +79,7 @@ Public Class frmLogin
     End Sub
 
     Private Sub btnForgotPassword_Click(sender As Object, e As EventArgs) Handles btnForgotPassword.Click
+        Me.Hide()
         frmVerification.ShowDialog()
     End Sub
 End Class

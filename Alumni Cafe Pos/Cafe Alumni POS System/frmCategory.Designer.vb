@@ -101,7 +101,7 @@ Partial Class frmCategory
         Me.txtCategory.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtCategory.Location = New System.Drawing.Point(17, 77)
         Me.txtCategory.Name = "txtCategory"
-        Me.txtCategory.Size = New System.Drawing.Size(238, 26)
+        Me.txtCategory.Size = New System.Drawing.Size(246, 26)
         Me.txtCategory.TabIndex = 5
         '
         'Guna2DragControl1
