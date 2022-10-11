@@ -1,0 +1,256 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Cafe Alumni POS System
+</name>
+</assembly>
+<members>
+<member name="T:Cafe_Alumni_POS_System.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Cafe_Alumni_POS_System.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Cafe_Alumni_POS_System.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Cafe_Alumni_POS_System.My.Resources.Resources.calculator">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cafe_Alumni_POS_System.My.Resources.Resources.cute_anime_girl_caty_hairs_5h_1280x720">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cafe_Alumni_POS_System.My.Resources.Resources.database">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cafe_Alumni_POS_System.My.Resources.Resources.gear">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cafe_Alumni_POS_System.My.Resources.Resources.income">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cafe_Alumni_POS_System.My.Resources.Resources.info">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cafe_Alumni_POS_System.My.Resources.Resources.key">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cafe_Alumni_POS_System.My.Resources.Resources.litter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cafe_Alumni_POS_System.My.Resources.Resources.logout">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cafe_Alumni_POS_System.My.Resources.Resources.man">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cafe_Alumni_POS_System.My.Resources.Resources.no_pictures">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cafe_Alumni_POS_System.My.Resources.Resources.notes">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cafe_Alumni_POS_System.My.Resources.Resources.packages">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cafe_Alumni_POS_System.My.Resources.Resources.pencil">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cafe_Alumni_POS_System.My.Resources.Resources.plus">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cafe_Alumni_POS_System.My.Resources.Resources.presentation">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cafe_Alumni_POS_System.My.Resources.Resources.printer">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cafe_Alumni_POS_System.My.Resources.Resources.profile">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cafe_Alumni_POS_System.My.Resources.Resources.report">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cafe_Alumni_POS_System.My.Resources.Resources.toolbox">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cafe_Alumni_POS_System.My.Resources.Resources.transaction">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:Cafe_Alumni_POS_System.POSDS">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Cafe_Alumni_POS_System.POSDS.tbl_receiptDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Cafe_Alumni_POS_System.POSDS.tbl_stockInDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Cafe_Alumni_POS_System.POSDS.tbl_stockOutDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Cafe_Alumni_POS_System.POSDS.tbl_stockDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Cafe_Alumni_POS_System.POSDS.tbl_purchaseDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Cafe_Alumni_POS_System.POSDS.tbl_purPaymentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Cafe_Alumni_POS_System.POSDS.tbl_salesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Cafe_Alumni_POS_System.POSDS.tbl_salespaymentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Cafe_Alumni_POS_System.POSDS.tbl_receiptRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Cafe_Alumni_POS_System.POSDS.tbl_stockInRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Cafe_Alumni_POS_System.POSDS.tbl_stockOutRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Cafe_Alumni_POS_System.POSDS.tbl_stockRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Cafe_Alumni_POS_System.POSDS.tbl_purchaseRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Cafe_Alumni_POS_System.POSDS.tbl_purPaymentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Cafe_Alumni_POS_System.POSDS.tbl_salesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Cafe_Alumni_POS_System.POSDS.tbl_salespaymentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Cafe_Alumni_POS_System.POSDS.tbl_receiptRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Cafe_Alumni_POS_System.POSDS.tbl_stockInRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Cafe_Alumni_POS_System.POSDS.tbl_stockOutRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Cafe_Alumni_POS_System.POSDS.tbl_stockRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Cafe_Alumni_POS_System.POSDS.tbl_purchaseRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Cafe_Alumni_POS_System.POSDS.tbl_purPaymentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Cafe_Alumni_POS_System.POSDS.tbl_salesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Cafe_Alumni_POS_System.POSDS.tbl_salespaymentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+</members>
+</doc>

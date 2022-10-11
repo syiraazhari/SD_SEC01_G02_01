@@ -239,6 +239,7 @@ Public Class frmSales
     Private Sub btnGetCash_Click(sender As Object, e As EventArgs) Handles btnGetCash.Click
         With frmGetCash
             .Show()
+            btnPayment.Enabled = True
         End With
     End Sub
 
